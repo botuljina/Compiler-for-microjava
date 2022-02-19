@@ -1,0 +1,104 @@
+INFO  21:37:37,179 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  21:37:37,198 - #2 program
+INFO  21:37:37,198 - #33 MJProgram
+INFO  21:37:37,198 - #5 const
+INFO  21:37:37,199 - #33 int
+INFO  21:37:37,199 - #33 a
+INFO  21:37:37,199 - #7 =
+INFO  21:37:37,199 - #34 5
+INFO  21:37:37,199 - #6 ;
+INFO  21:37:37,200 - #5 const
+INFO  21:37:37,201 - #33 char
+INFO  21:37:37,201 - #33 d
+INFO  21:37:37,201 - #7 =
+INFO  21:37:37,201 - #36 b
+INFO  21:37:37,201 - #6 ;
+INFO  21:37:37,201 - #33 char
+INFO  21:37:37,201 - #33 c
+INFO  21:37:37,201 - #6 ;
+INFO  21:37:37,202 - #33 char
+INFO  21:37:37,203 - #33 g
+INFO  21:37:37,203 - #6 ;
+INFO  21:37:37,203 - #3 {
+INFO  21:37:37,203 - #9 void
+INFO  21:37:37,203 - #33 main
+INFO  21:37:37,203 - #10 (
+INFO  21:37:37,204 - #11 )
+INFO  21:37:37,204 - #3 {
+INFO  21:37:37,204 - #4 }
+INFO  21:37:37,204 - #4 }
+INFO  21:37:37,208 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_con(
+        ConVarDeclList_con(
+          ConVarDeclList_e(
+          ) [ConVarDeclList_e]
+          ConDeclList(
+            Type(
+             int
+            ) [Type]
+            ConDecl(
+             a
+              Constant_n(
+               5
+              ) [Constant_n]
+            ) [ConDecl]
+            ConDeclMore_e(
+            ) [ConDeclMore_e]
+          ) [ConDeclList]
+        ) [ConVarDeclList_con]
+        ConDeclList(
+          Type(
+           char
+          ) [Type]
+          ConDecl(
+           d
+            Constant_c(
+             b
+            ) [Constant_c]
+          ) [ConDecl]
+          ConDeclMore_e(
+          ) [ConDeclMore_e]
+        ) [ConDeclList]
+      ) [ConVarDeclList_con]
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarDecl_identonly(
+         c
+        ) [VarDecl_identonly]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      Type(
+       char
+      ) [Type]
+      VarDecl_identonly(
+       g
+      ) [VarDecl_identonly]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    MethDeclName(
+     main
+    ) [MethDeclName]
+    MethVarDeclList_e(
+    ) [MethVarDeclList_e]
+    StatementList_e(
+    ) [StatementList_e]
+  ) [MethDecl]
+) [Program]
+INFO  21:37:37,208 - ===================================
+INFO  21:37:37,210 -  Print count calls = 0
+INFO  21:37:37,210 -  Deklarisanih promenljivih ima = 0
+INFO  21:37:37,210 - ===================================
+INFO  21:37:37,211 - Parsiranje uspesno zavrseno!

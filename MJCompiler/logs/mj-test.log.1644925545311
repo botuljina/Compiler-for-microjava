@@ -1,0 +1,46 @@
+INFO  12:45:34,101 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  12:45:34,122 - #2 program
+INFO  12:45:34,122 - #33 MJProgram
+INFO  12:45:34,122 - #5 const
+INFO  12:45:34,123 - #33 int
+INFO  12:45:34,123 - #33 a
+INFO  12:45:34,124 - #7 =
+INFO  12:45:34,124 - #34 5
+INFO  12:45:34,124 - #6 ;
+INFO  12:45:34,125 - #5 const
+INFO  12:45:34,125 - #33 char
+INFO  12:45:34,125 - #33 d
+INFO  12:45:34,126 - #7 =
+INFO  12:45:34,126 - #36 b
+INFO  12:45:34,126 - #6 ;
+INFO  12:45:34,126 - #33 char
+INFO  12:45:34,126 - #33 c
+INFO  12:45:34,126 - #6 ;
+INFO  12:45:34,126 - #33 char
+INFO  12:45:34,127 - #33 g
+INFO  12:45:34,127 - #6 ;
+INFO  12:45:34,127 - #33 char
+INFO  12:45:34,127 - #33 s
+INFO  12:45:34,128 - #6 ;
+INFO  12:45:34,128 - #33 int
+INFO  12:45:34,128 - #33 t
+INFO  12:45:34,128 - #12 [
+INFO  12:45:34,128 - #13 ]
+INFO  12:45:34,128 - #6 ;
+INFO  12:45:34,128 - #33 int
+INFO  12:45:34,128 - #33 c1
+INFO  12:45:34,128 - #8 ,
+INFO  12:45:34,128 - #33 c2
+INFO  12:45:34,128 - #6 ;
+INFO  12:45:34,129 - #3 {
+INFO  12:45:34,129 - #9 void
+INFO  12:45:34,129 - #33 main
+INFO  12:45:34,129 - #10 (
+INFO  12:45:34,129 - #11 )
+INFO  12:45:34,129 - #33 int
+INFO  12:45:34,130 - #33 d
+INFO  12:45:34,130 - #6 ;
+INFO  12:45:34,130 - #5 const
+ERROR 12:45:34,130 - 
+Sintaksna greska na liniji 14
+ERROR 12:45:34,130 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 14

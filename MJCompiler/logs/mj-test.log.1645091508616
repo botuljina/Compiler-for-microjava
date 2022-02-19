@@ -1,0 +1,1654 @@
+INFO  10:48:40,845 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  10:48:40,864 - #2 program
+INFO  10:48:40,865 - #33 test301
+INFO  10:48:40,865 - #5 const
+INFO  10:48:40,865 - #33 int
+INFO  10:48:40,865 - #33 nula
+INFO  10:48:40,866 - #7 =
+INFO  10:48:40,866 - #34 0
+INFO  10:48:40,866 - #6 ;
+INFO  10:48:40,867 - #5 const
+INFO  10:48:40,867 - #33 int
+INFO  10:48:40,867 - #33 jedan
+INFO  10:48:40,867 - #7 =
+INFO  10:48:40,867 - #34 1
+INFO  10:48:40,867 - #6 ;
+INFO  10:48:40,867 - #5 const
+INFO  10:48:40,867 - #33 int
+INFO  10:48:40,867 - #33 pet
+INFO  10:48:40,868 - #7 =
+INFO  10:48:40,868 - #34 5
+INFO  10:48:40,868 - #6 ;
+INFO  10:48:40,868 - #33 int
+INFO  10:48:40,868 - #33 niz
+INFO  10:48:40,868 - #12 [
+INFO  10:48:40,868 - #13 ]
+INFO  10:48:40,868 - #6 ;
+INFO  10:48:40,869 - #33 char
+INFO  10:48:40,870 - #33 nizch
+INFO  10:48:40,870 - #12 [
+INFO  10:48:40,870 - #13 ]
+INFO  10:48:40,870 - #6 ;
+INFO  10:48:40,870 - #3 {
+INFO  10:48:40,870 - #9 void
+INFO  10:48:40,870 - #33 main
+INFO  10:48:40,870 - #10 (
+INFO  10:48:40,870 - #11 )
+INFO  10:48:40,870 - #33 int
+INFO  10:48:40,870 - #33 bodovi
+INFO  10:48:40,871 - #6 ;
+INFO  10:48:40,871 - #3 {
+INFO  10:48:40,871 - #33 bodovi
+INFO  10:48:40,871 - #7 =
+INFO  10:48:40,871 - #34 0
+INFO  10:48:40,872 - #6 ;
+INFO  10:48:40,873 - #33 bodovi
+INFO  10:48:40,874 - #25 ++
+INFO  10:48:40,874 - #6 ;
+INFO  10:48:40,874 - #33 bodovi
+INFO  10:48:40,874 - #7 =
+INFO  10:48:40,874 - #33 bodovi
+INFO  10:48:40,874 - #20 +
+INFO  10:48:40,874 - #33 jedan
+INFO  10:48:40,875 - #6 ;
+INFO  10:48:40,875 - #33 bodovi
+INFO  10:48:40,875 - #7 =
+INFO  10:48:40,875 - #33 bodovi
+INFO  10:48:40,875 - #21 *
+INFO  10:48:40,875 - #33 pet
+INFO  10:48:40,876 - #6 ;
+INFO  10:48:40,876 - #33 bodovi
+INFO  10:48:40,877 - #26 --
+INFO  10:48:40,877 - #6 ;
+INFO  10:48:40,877 - #17 print
+INFO  10:48:40,877 - #10 (
+INFO  10:48:40,877 - #33 bodovi
+INFO  10:48:40,877 - #11 )
+INFO  10:48:40,877 - #6 ;
+INFO  10:48:40,877 - #33 niz
+INFO  10:48:40,877 - #7 =
+INFO  10:48:40,877 - #24 new
+INFO  10:48:40,877 - #33 int
+INFO  10:48:40,877 - #12 [
+INFO  10:48:40,877 - #34 3
+INFO  10:48:40,877 - #13 ]
+INFO  10:48:40,877 - #6 ;
+INFO  10:48:40,878 - #33 niz
+INFO  10:48:40,878 - #12 [
+INFO  10:48:40,878 - #33 nula
+INFO  10:48:40,878 - #13 ]
+INFO  10:48:40,878 - #7 =
+INFO  10:48:40,878 - #33 jedan
+INFO  10:48:40,879 - #6 ;
+INFO  10:48:40,879 - #33 niz
+INFO  10:48:40,879 - #12 [
+INFO  10:48:40,879 - #34 1
+INFO  10:48:40,879 - #13 ]
+INFO  10:48:40,879 - #7 =
+INFO  10:48:40,879 - #34 2
+INFO  10:48:40,879 - #6 ;
+INFO  10:48:40,879 - #33 niz
+INFO  10:48:40,879 - #12 [
+INFO  10:48:40,879 - #33 niz
+INFO  10:48:40,879 - #12 [
+INFO  10:48:40,879 - #33 jedan
+INFO  10:48:40,879 - #13 ]
+INFO  10:48:40,879 - #13 ]
+INFO  10:48:40,879 - #7 =
+INFO  10:48:40,879 - #33 niz
+INFO  10:48:40,879 - #12 [
+INFO  10:48:40,879 - #33 niz
+INFO  10:48:40,879 - #12 [
+INFO  10:48:40,880 - #34 0
+INFO  10:48:40,880 - #13 ]
+INFO  10:48:40,880 - #13 ]
+INFO  10:48:40,880 - #21 *
+INFO  10:48:40,880 - #34 3
+INFO  10:48:40,880 - #6 ;
+INFO  10:48:40,880 - #33 bodovi
+INFO  10:48:40,880 - #7 =
+INFO  10:48:40,880 - #33 niz
+INFO  10:48:40,880 - #12 [
+INFO  10:48:40,880 - #34 2
+INFO  10:48:40,880 - #13 ]
+INFO  10:48:40,880 - #22 /
+INFO  10:48:40,880 - #33 niz
+INFO  10:48:40,881 - #12 [
+INFO  10:48:40,881 - #34 0
+INFO  10:48:40,881 - #13 ]
+INFO  10:48:40,881 - #6 ;
+INFO  10:48:40,881 - #17 print
+INFO  10:48:40,881 - #10 (
+INFO  10:48:40,881 - #33 bodovi
+INFO  10:48:40,881 - #11 )
+INFO  10:48:40,881 - #6 ;
+INFO  10:48:40,881 - #17 print
+INFO  10:48:40,881 - #10 (
+INFO  10:48:40,881 - #33 niz
+INFO  10:48:40,881 - #12 [
+INFO  10:48:40,881 - #34 2
+INFO  10:48:40,881 - #13 ]
+INFO  10:48:40,881 - #11 )
+INFO  10:48:40,881 - #6 ;
+INFO  10:48:40,882 - #33 nizch
+INFO  10:48:40,882 - #7 =
+INFO  10:48:40,882 - #24 new
+INFO  10:48:40,882 - #33 char
+INFO  10:48:40,882 - #12 [
+INFO  10:48:40,882 - #34 3
+INFO  10:48:40,882 - #13 ]
+INFO  10:48:40,882 - #6 ;
+INFO  10:48:40,882 - #33 nizch
+INFO  10:48:40,882 - #12 [
+INFO  10:48:40,882 - #34 0
+INFO  10:48:40,882 - #13 ]
+INFO  10:48:40,882 - #7 =
+INFO  10:48:40,882 - #36 a
+INFO  10:48:40,882 - #6 ;
+INFO  10:48:40,882 - #33 nizch
+INFO  10:48:40,882 - #12 [
+INFO  10:48:40,882 - #33 jedan
+INFO  10:48:40,882 - #13 ]
+INFO  10:48:40,883 - #7 =
+INFO  10:48:40,883 - #36 b
+INFO  10:48:40,883 - #6 ;
+INFO  10:48:40,883 - #33 nizch
+INFO  10:48:40,883 - #12 [
+INFO  10:48:40,883 - #33 pet
+INFO  10:48:40,883 - #19 -
+INFO  10:48:40,883 - #34 3
+INFO  10:48:40,883 - #13 ]
+INFO  10:48:40,883 - #7 =
+INFO  10:48:40,883 - #36 c
+INFO  10:48:40,883 - #6 ;
+INFO  10:48:40,883 - #17 print
+INFO  10:48:40,883 - #10 (
+INFO  10:48:40,884 - #33 nizch
+INFO  10:48:40,884 - #12 [
+INFO  10:48:40,884 - #34 1
+INFO  10:48:40,884 - #13 ]
+INFO  10:48:40,884 - #11 )
+INFO  10:48:40,884 - #6 ;
+INFO  10:48:40,884 - #17 print
+INFO  10:48:40,884 - #10 (
+INFO  10:48:40,884 - #33 nizch
+INFO  10:48:40,884 - #12 [
+INFO  10:48:40,884 - #33 jedan
+INFO  10:48:40,884 - #21 *
+INFO  10:48:40,884 - #34 2
+INFO  10:48:40,884 - #13 ]
+INFO  10:48:40,884 - #11 )
+INFO  10:48:40,884 - #6 ;
+INFO  10:48:40,885 - #33 bodovi
+INFO  10:48:40,885 - #7 =
+INFO  10:48:40,885 - #33 bodovi
+INFO  10:48:40,885 - #20 +
+INFO  10:48:40,885 - #10 (
+INFO  10:48:40,885 - #33 pet
+INFO  10:48:40,885 - #21 *
+INFO  10:48:40,885 - #33 jedan
+INFO  10:48:40,885 - #19 -
+INFO  10:48:40,885 - #34 1
+INFO  10:48:40,885 - #11 )
+INFO  10:48:40,885 - #21 *
+INFO  10:48:40,885 - #33 bodovi
+INFO  10:48:40,885 - #19 -
+INFO  10:48:40,885 - #10 (
+INFO  10:48:40,885 - #34 3
+INFO  10:48:40,885 - #23 %
+INFO  10:48:40,885 - #34 2
+INFO  10:48:40,886 - #20 +
+INFO  10:48:40,886 - #34 3
+INFO  10:48:40,886 - #21 *
+INFO  10:48:40,886 - #34 2
+INFO  10:48:40,886 - #19 -
+INFO  10:48:40,886 - #34 3
+INFO  10:48:40,886 - #11 )
+INFO  10:48:40,886 - #6 ;
+INFO  10:48:40,886 - #17 print
+INFO  10:48:40,886 - #10 (
+INFO  10:48:40,886 - #33 bodovi
+INFO  10:48:40,886 - #11 )
+INFO  10:48:40,887 - #6 ;
+INFO  10:48:40,887 - #16 read
+INFO  10:48:40,887 - #10 (
+INFO  10:48:40,887 - #33 bodovi
+INFO  10:48:40,887 - #11 )
+INFO  10:48:40,887 - #6 ;
+INFO  10:48:40,887 - #17 print
+INFO  10:48:40,887 - #10 (
+INFO  10:48:40,887 - #33 bodovi
+INFO  10:48:40,887 - #11 )
+INFO  10:48:40,887 - #6 ;
+INFO  10:48:40,887 - #33 bodovi
+INFO  10:48:40,887 - #25 ++
+INFO  10:48:40,887 - #6 ;
+INFO  10:48:40,887 - #18 goto
+INFO  10:48:40,887 - #33 labela1
+INFO  10:48:40,887 - #6 ;
+INFO  10:48:40,888 - #33 bodovi
+INFO  10:48:40,888 - #7 =
+INFO  10:48:40,888 - #33 bodovi
+INFO  10:48:40,888 - #21 *
+INFO  10:48:40,888 - #34 2
+INFO  10:48:40,888 - #6 ;
+INFO  10:48:40,888 - #33 bodovi
+INFO  10:48:40,888 - #26 --
+INFO  10:48:40,888 - #6 ;
+INFO  10:48:40,888 - #33 labela1
+INFO  10:48:40,888 - #14 :
+INFO  10:48:40,888 - #33 bodovi
+INFO  10:48:40,888 - #7 =
+INFO  10:48:40,888 - #33 bodovi
+INFO  10:48:40,889 - #20 +
+INFO  10:48:40,889 - #34 3
+INFO  10:48:40,889 - #6 ;
+INFO  10:48:40,889 - #17 print
+INFO  10:48:40,889 - #10 (
+INFO  10:48:40,889 - #33 bodovi
+INFO  10:48:40,889 - #11 )
+INFO  10:48:40,889 - #6 ;
+INFO  10:48:40,889 - #18 goto
+INFO  10:48:40,889 - #33 labelaminus
+INFO  10:48:40,889 - #6 ;
+INFO  10:48:40,889 - #17 print
+INFO  10:48:40,889 - #10 (
+INFO  10:48:40,889 - #36 +
+INFO  10:48:40,889 - #11 )
+INFO  10:48:40,889 - #6 ;
+INFO  10:48:40,889 - #33 labelaminus
+INFO  10:48:40,889 - #14 :
+INFO  10:48:40,889 - #17 print
+INFO  10:48:40,889 - #10 (
+INFO  10:48:40,889 - #36 -
+INFO  10:48:40,889 - #11 )
+INFO  10:48:40,890 - #6 ;
+INFO  10:48:40,890 - #4 }
+INFO  10:48:40,890 - #4 }
+INFO  10:48:40,898 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_con(
+        ConVarDeclList_con(
+          ConVarDeclList_con(
+            ConVarDeclList_e(
+            ) [ConVarDeclList_e]
+            ConDeclList(
+              Type(
+               int
+              ) [Type]
+              ConDecl(
+               nula
+                Constant_n(
+                 0
+                ) [Constant_n]
+              ) [ConDecl]
+              ConDeclMore_e(
+              ) [ConDeclMore_e]
+            ) [ConDeclList]
+          ) [ConVarDeclList_con]
+          ConDeclList(
+            Type(
+             int
+            ) [Type]
+            ConDecl(
+             jedan
+              Constant_n(
+               1
+              ) [Constant_n]
+            ) [ConDecl]
+            ConDeclMore_e(
+            ) [ConDeclMore_e]
+          ) [ConDeclList]
+        ) [ConVarDeclList_con]
+        ConDeclList(
+          Type(
+           int
+          ) [Type]
+          ConDecl(
+           pet
+            Constant_n(
+             5
+            ) [Constant_n]
+          ) [ConDecl]
+          ConDeclMore_e(
+          ) [ConDeclMore_e]
+        ) [ConDeclList]
+      ) [ConVarDeclList_con]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_braces(
+         niz
+        ) [VarDecl_braces]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      Type(
+       char
+      ) [Type]
+      VarDecl_braces(
+       nizch
+      ) [VarDecl_braces]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    MethDeclName(
+     main
+    ) [MethDeclName]
+    MethVarDeclList_vardecl(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_identonly(
+         bodovi
+        ) [VarDecl_identonly]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+      MethVarDeclList_e(
+      ) [MethVarDeclList_e]
+    ) [MethVarDeclList_vardecl]
+    StatementList_statement(
+      Statement_nolabel(
+        SingleStatement_desigstmt(
+          DesignatorStatement_asssign(
+            Designator_var(
+             bodovi
+            ) [Designator_var]
+            Assignop(
+            ) [Assignop]
+            Expr(
+              ExprList_t(
+                Term(
+                  TermList_f(
+                    Factor(
+                      Unary_e(
+                      ) [Unary_e]
+                      Factor_num(
+                       0
+                      ) [Factor_num]
+                    ) [Factor]
+                  ) [TermList_f]
+                ) [Term]
+              ) [ExprList_t]
+            ) [Expr]
+          ) [DesignatorStatement_asssign]
+        ) [SingleStatement_desigstmt]
+      ) [Statement_nolabel]
+      StatementList_statement(
+        Statement_nolabel(
+          SingleStatement_desigstmt(
+            DesignatorStatement_inc(
+              Designator_var(
+               bodovi
+              ) [Designator_var]
+            ) [DesignatorStatement_inc]
+          ) [SingleStatement_desigstmt]
+        ) [Statement_nolabel]
+        StatementList_statement(
+          Statement_nolabel(
+            SingleStatement_desigstmt(
+              DesignatorStatement_asssign(
+                Designator_var(
+                 bodovi
+                ) [Designator_var]
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  ExprList_l(
+                    ExprList_t(
+                      Term(
+                        TermList_f(
+                          Factor(
+                            Unary_e(
+                            ) [Unary_e]
+                            Factor_des(
+                              Designator_var(
+                               bodovi
+                              ) [Designator_var]
+                            ) [Factor_des]
+                          ) [Factor]
+                        ) [TermList_f]
+                      ) [Term]
+                    ) [ExprList_t]
+                    Addop_plus(
+                    ) [Addop_plus]
+                    Term(
+                      TermList_f(
+                        Factor(
+                          Unary_e(
+                          ) [Unary_e]
+                          Factor_des(
+                            Designator_var(
+                             jedan
+                            ) [Designator_var]
+                          ) [Factor_des]
+                        ) [Factor]
+                      ) [TermList_f]
+                    ) [Term]
+                  ) [ExprList_l]
+                ) [Expr]
+              ) [DesignatorStatement_asssign]
+            ) [SingleStatement_desigstmt]
+          ) [Statement_nolabel]
+          StatementList_statement(
+            Statement_nolabel(
+              SingleStatement_desigstmt(
+                DesignatorStatement_asssign(
+                  Designator_var(
+                   bodovi
+                  ) [Designator_var]
+                  Assignop(
+                  ) [Assignop]
+                  Expr(
+                    ExprList_t(
+                      Term(
+                        TermList_m(
+                          TermList_f(
+                            Factor(
+                              Unary_e(
+                              ) [Unary_e]
+                              Factor_des(
+                                Designator_var(
+                                 bodovi
+                                ) [Designator_var]
+                              ) [Factor_des]
+                            ) [Factor]
+                          ) [TermList_f]
+                          Mulop_mul(
+                          ) [Mulop_mul]
+                          Factor(
+                            Unary_e(
+                            ) [Unary_e]
+                            Factor_des(
+                              Designator_var(
+                               pet
+                              ) [Designator_var]
+                            ) [Factor_des]
+                          ) [Factor]
+                        ) [TermList_m]
+                      ) [Term]
+                    ) [ExprList_t]
+                  ) [Expr]
+                ) [DesignatorStatement_asssign]
+              ) [SingleStatement_desigstmt]
+            ) [Statement_nolabel]
+            StatementList_statement(
+              Statement_nolabel(
+                SingleStatement_desigstmt(
+                  DesignatorStatement_dec(
+                    Designator_var(
+                     bodovi
+                    ) [Designator_var]
+                  ) [DesignatorStatement_dec]
+                ) [SingleStatement_desigstmt]
+              ) [Statement_nolabel]
+              StatementList_statement(
+                Statement_nolabel(
+                  SingleStatement_print(
+                    Expr(
+                      ExprList_t(
+                        Term(
+                          TermList_f(
+                            Factor(
+                              Unary_e(
+                              ) [Unary_e]
+                              Factor_des(
+                                Designator_var(
+                                 bodovi
+                                ) [Designator_var]
+                              ) [Factor_des]
+                            ) [Factor]
+                          ) [TermList_f]
+                        ) [Term]
+                      ) [ExprList_t]
+                    ) [Expr]
+                  ) [SingleStatement_print]
+                ) [Statement_nolabel]
+                StatementList_statement(
+                  Statement_nolabel(
+                    SingleStatement_desigstmt(
+                      DesignatorStatement_asssign(
+                        Designator_var(
+                         niz
+                        ) [Designator_var]
+                        Assignop(
+                        ) [Assignop]
+                        Expr(
+                          ExprList_t(
+                            Term(
+                              TermList_f(
+                                Factor(
+                                  Unary_e(
+                                  ) [Unary_e]
+                                  Factor_newexpr(
+                                    Type(
+                                     int
+                                    ) [Type]
+                                    Expr(
+                                      ExprList_t(
+                                        Term(
+                                          TermList_f(
+                                            Factor(
+                                              Unary_e(
+                                              ) [Unary_e]
+                                              Factor_num(
+                                               3
+                                              ) [Factor_num]
+                                            ) [Factor]
+                                          ) [TermList_f]
+                                        ) [Term]
+                                      ) [ExprList_t]
+                                    ) [Expr]
+                                  ) [Factor_newexpr]
+                                ) [Factor]
+                              ) [TermList_f]
+                            ) [Term]
+                          ) [ExprList_t]
+                        ) [Expr]
+                      ) [DesignatorStatement_asssign]
+                    ) [SingleStatement_desigstmt]
+                  ) [Statement_nolabel]
+                  StatementList_statement(
+                    Statement_nolabel(
+                      SingleStatement_desigstmt(
+                        DesignatorStatement_asssign(
+                          Designator_elem(
+                            DesignatorArrayName(
+                             niz
+                            ) [DesignatorArrayName]
+                            Expr(
+                              ExprList_t(
+                                Term(
+                                  TermList_f(
+                                    Factor(
+                                      Unary_e(
+                                      ) [Unary_e]
+                                      Factor_des(
+                                        Designator_var(
+                                         nula
+                                        ) [Designator_var]
+                                      ) [Factor_des]
+                                    ) [Factor]
+                                  ) [TermList_f]
+                                ) [Term]
+                              ) [ExprList_t]
+                            ) [Expr]
+                          ) [Designator_elem]
+                          Assignop(
+                          ) [Assignop]
+                          Expr(
+                            ExprList_t(
+                              Term(
+                                TermList_f(
+                                  Factor(
+                                    Unary_e(
+                                    ) [Unary_e]
+                                    Factor_des(
+                                      Designator_var(
+                                       jedan
+                                      ) [Designator_var]
+                                    ) [Factor_des]
+                                  ) [Factor]
+                                ) [TermList_f]
+                              ) [Term]
+                            ) [ExprList_t]
+                          ) [Expr]
+                        ) [DesignatorStatement_asssign]
+                      ) [SingleStatement_desigstmt]
+                    ) [Statement_nolabel]
+                    StatementList_statement(
+                      Statement_nolabel(
+                        SingleStatement_desigstmt(
+                          DesignatorStatement_asssign(
+                            Designator_elem(
+                              DesignatorArrayName(
+                               niz
+                              ) [DesignatorArrayName]
+                              Expr(
+                                ExprList_t(
+                                  Term(
+                                    TermList_f(
+                                      Factor(
+                                        Unary_e(
+                                        ) [Unary_e]
+                                        Factor_num(
+                                         1
+                                        ) [Factor_num]
+                                      ) [Factor]
+                                    ) [TermList_f]
+                                  ) [Term]
+                                ) [ExprList_t]
+                              ) [Expr]
+                            ) [Designator_elem]
+                            Assignop(
+                            ) [Assignop]
+                            Expr(
+                              ExprList_t(
+                                Term(
+                                  TermList_f(
+                                    Factor(
+                                      Unary_e(
+                                      ) [Unary_e]
+                                      Factor_num(
+                                       2
+                                      ) [Factor_num]
+                                    ) [Factor]
+                                  ) [TermList_f]
+                                ) [Term]
+                              ) [ExprList_t]
+                            ) [Expr]
+                          ) [DesignatorStatement_asssign]
+                        ) [SingleStatement_desigstmt]
+                      ) [Statement_nolabel]
+                      StatementList_statement(
+                        Statement_nolabel(
+                          SingleStatement_desigstmt(
+                            DesignatorStatement_asssign(
+                              Designator_elem(
+                                DesignatorArrayName(
+                                 niz
+                                ) [DesignatorArrayName]
+                                Expr(
+                                  ExprList_t(
+                                    Term(
+                                      TermList_f(
+                                        Factor(
+                                          Unary_e(
+                                          ) [Unary_e]
+                                          Factor_des(
+                                            Designator_elem(
+                                              DesignatorArrayName(
+                                               niz
+                                              ) [DesignatorArrayName]
+                                              Expr(
+                                                ExprList_t(
+                                                  Term(
+                                                    TermList_f(
+                                                      Factor(
+                                                        Unary_e(
+                                                        ) [Unary_e]
+                                                        Factor_des(
+                                                          Designator_var(
+                                                           jedan
+                                                          ) [Designator_var]
+                                                        ) [Factor_des]
+                                                      ) [Factor]
+                                                    ) [TermList_f]
+                                                  ) [Term]
+                                                ) [ExprList_t]
+                                              ) [Expr]
+                                            ) [Designator_elem]
+                                          ) [Factor_des]
+                                        ) [Factor]
+                                      ) [TermList_f]
+                                    ) [Term]
+                                  ) [ExprList_t]
+                                ) [Expr]
+                              ) [Designator_elem]
+                              Assignop(
+                              ) [Assignop]
+                              Expr(
+                                ExprList_t(
+                                  Term(
+                                    TermList_m(
+                                      TermList_f(
+                                        Factor(
+                                          Unary_e(
+                                          ) [Unary_e]
+                                          Factor_des(
+                                            Designator_elem(
+                                              DesignatorArrayName(
+                                               niz
+                                              ) [DesignatorArrayName]
+                                              Expr(
+                                                ExprList_t(
+                                                  Term(
+                                                    TermList_f(
+                                                      Factor(
+                                                        Unary_e(
+                                                        ) [Unary_e]
+                                                        Factor_des(
+                                                          Designator_elem(
+                                                            DesignatorArrayName(
+                                                             niz
+                                                            ) [DesignatorArrayName]
+                                                            Expr(
+                                                              ExprList_t(
+                                                                Term(
+                                                                  TermList_f(
+                                                                    Factor(
+                                                                      Unary_e(
+                                                                      ) [Unary_e]
+                                                                      Factor_num(
+                                                                       0
+                                                                      ) [Factor_num]
+                                                                    ) [Factor]
+                                                                  ) [TermList_f]
+                                                                ) [Term]
+                                                              ) [ExprList_t]
+                                                            ) [Expr]
+                                                          ) [Designator_elem]
+                                                        ) [Factor_des]
+                                                      ) [Factor]
+                                                    ) [TermList_f]
+                                                  ) [Term]
+                                                ) [ExprList_t]
+                                              ) [Expr]
+                                            ) [Designator_elem]
+                                          ) [Factor_des]
+                                        ) [Factor]
+                                      ) [TermList_f]
+                                      Mulop_mul(
+                                      ) [Mulop_mul]
+                                      Factor(
+                                        Unary_e(
+                                        ) [Unary_e]
+                                        Factor_num(
+                                         3
+                                        ) [Factor_num]
+                                      ) [Factor]
+                                    ) [TermList_m]
+                                  ) [Term]
+                                ) [ExprList_t]
+                              ) [Expr]
+                            ) [DesignatorStatement_asssign]
+                          ) [SingleStatement_desigstmt]
+                        ) [Statement_nolabel]
+                        StatementList_statement(
+                          Statement_nolabel(
+                            SingleStatement_desigstmt(
+                              DesignatorStatement_asssign(
+                                Designator_var(
+                                 bodovi
+                                ) [Designator_var]
+                                Assignop(
+                                ) [Assignop]
+                                Expr(
+                                  ExprList_t(
+                                    Term(
+                                      TermList_m(
+                                        TermList_f(
+                                          Factor(
+                                            Unary_e(
+                                            ) [Unary_e]
+                                            Factor_des(
+                                              Designator_elem(
+                                                DesignatorArrayName(
+                                                 niz
+                                                ) [DesignatorArrayName]
+                                                Expr(
+                                                  ExprList_t(
+                                                    Term(
+                                                      TermList_f(
+                                                        Factor(
+                                                          Unary_e(
+                                                          ) [Unary_e]
+                                                          Factor_num(
+                                                           2
+                                                          ) [Factor_num]
+                                                        ) [Factor]
+                                                      ) [TermList_f]
+                                                    ) [Term]
+                                                  ) [ExprList_t]
+                                                ) [Expr]
+                                              ) [Designator_elem]
+                                            ) [Factor_des]
+                                          ) [Factor]
+                                        ) [TermList_f]
+                                        Mulop_div(
+                                        ) [Mulop_div]
+                                        Factor(
+                                          Unary_e(
+                                          ) [Unary_e]
+                                          Factor_des(
+                                            Designator_elem(
+                                              DesignatorArrayName(
+                                               niz
+                                              ) [DesignatorArrayName]
+                                              Expr(
+                                                ExprList_t(
+                                                  Term(
+                                                    TermList_f(
+                                                      Factor(
+                                                        Unary_e(
+                                                        ) [Unary_e]
+                                                        Factor_num(
+                                                         0
+                                                        ) [Factor_num]
+                                                      ) [Factor]
+                                                    ) [TermList_f]
+                                                  ) [Term]
+                                                ) [ExprList_t]
+                                              ) [Expr]
+                                            ) [Designator_elem]
+                                          ) [Factor_des]
+                                        ) [Factor]
+                                      ) [TermList_m]
+                                    ) [Term]
+                                  ) [ExprList_t]
+                                ) [Expr]
+                              ) [DesignatorStatement_asssign]
+                            ) [SingleStatement_desigstmt]
+                          ) [Statement_nolabel]
+                          StatementList_statement(
+                            Statement_nolabel(
+                              SingleStatement_print(
+                                Expr(
+                                  ExprList_t(
+                                    Term(
+                                      TermList_f(
+                                        Factor(
+                                          Unary_e(
+                                          ) [Unary_e]
+                                          Factor_des(
+                                            Designator_var(
+                                             bodovi
+                                            ) [Designator_var]
+                                          ) [Factor_des]
+                                        ) [Factor]
+                                      ) [TermList_f]
+                                    ) [Term]
+                                  ) [ExprList_t]
+                                ) [Expr]
+                              ) [SingleStatement_print]
+                            ) [Statement_nolabel]
+                            StatementList_statement(
+                              Statement_nolabel(
+                                SingleStatement_print(
+                                  Expr(
+                                    ExprList_t(
+                                      Term(
+                                        TermList_f(
+                                          Factor(
+                                            Unary_e(
+                                            ) [Unary_e]
+                                            Factor_des(
+                                              Designator_elem(
+                                                DesignatorArrayName(
+                                                 niz
+                                                ) [DesignatorArrayName]
+                                                Expr(
+                                                  ExprList_t(
+                                                    Term(
+                                                      TermList_f(
+                                                        Factor(
+                                                          Unary_e(
+                                                          ) [Unary_e]
+                                                          Factor_num(
+                                                           2
+                                                          ) [Factor_num]
+                                                        ) [Factor]
+                                                      ) [TermList_f]
+                                                    ) [Term]
+                                                  ) [ExprList_t]
+                                                ) [Expr]
+                                              ) [Designator_elem]
+                                            ) [Factor_des]
+                                          ) [Factor]
+                                        ) [TermList_f]
+                                      ) [Term]
+                                    ) [ExprList_t]
+                                  ) [Expr]
+                                ) [SingleStatement_print]
+                              ) [Statement_nolabel]
+                              StatementList_statement(
+                                Statement_nolabel(
+                                  SingleStatement_desigstmt(
+                                    DesignatorStatement_asssign(
+                                      Designator_var(
+                                       nizch
+                                      ) [Designator_var]
+                                      Assignop(
+                                      ) [Assignop]
+                                      Expr(
+                                        ExprList_t(
+                                          Term(
+                                            TermList_f(
+                                              Factor(
+                                                Unary_e(
+                                                ) [Unary_e]
+                                                Factor_newexpr(
+                                                  Type(
+                                                   char
+                                                  ) [Type]
+                                                  Expr(
+                                                    ExprList_t(
+                                                      Term(
+                                                        TermList_f(
+                                                          Factor(
+                                                            Unary_e(
+                                                            ) [Unary_e]
+                                                            Factor_num(
+                                                             3
+                                                            ) [Factor_num]
+                                                          ) [Factor]
+                                                        ) [TermList_f]
+                                                      ) [Term]
+                                                    ) [ExprList_t]
+                                                  ) [Expr]
+                                                ) [Factor_newexpr]
+                                              ) [Factor]
+                                            ) [TermList_f]
+                                          ) [Term]
+                                        ) [ExprList_t]
+                                      ) [Expr]
+                                    ) [DesignatorStatement_asssign]
+                                  ) [SingleStatement_desigstmt]
+                                ) [Statement_nolabel]
+                                StatementList_statement(
+                                  Statement_nolabel(
+                                    SingleStatement_desigstmt(
+                                      DesignatorStatement_asssign(
+                                        Designator_elem(
+                                          DesignatorArrayName(
+                                           nizch
+                                          ) [DesignatorArrayName]
+                                          Expr(
+                                            ExprList_t(
+                                              Term(
+                                                TermList_f(
+                                                  Factor(
+                                                    Unary_e(
+                                                    ) [Unary_e]
+                                                    Factor_num(
+                                                     0
+                                                    ) [Factor_num]
+                                                  ) [Factor]
+                                                ) [TermList_f]
+                                              ) [Term]
+                                            ) [ExprList_t]
+                                          ) [Expr]
+                                        ) [Designator_elem]
+                                        Assignop(
+                                        ) [Assignop]
+                                        Expr(
+                                          ExprList_t(
+                                            Term(
+                                              TermList_f(
+                                                Factor(
+                                                  Unary_e(
+                                                  ) [Unary_e]
+                                                  Factor_char(
+                                                   a
+                                                  ) [Factor_char]
+                                                ) [Factor]
+                                              ) [TermList_f]
+                                            ) [Term]
+                                          ) [ExprList_t]
+                                        ) [Expr]
+                                      ) [DesignatorStatement_asssign]
+                                    ) [SingleStatement_desigstmt]
+                                  ) [Statement_nolabel]
+                                  StatementList_statement(
+                                    Statement_nolabel(
+                                      SingleStatement_desigstmt(
+                                        DesignatorStatement_asssign(
+                                          Designator_elem(
+                                            DesignatorArrayName(
+                                             nizch
+                                            ) [DesignatorArrayName]
+                                            Expr(
+                                              ExprList_t(
+                                                Term(
+                                                  TermList_f(
+                                                    Factor(
+                                                      Unary_e(
+                                                      ) [Unary_e]
+                                                      Factor_des(
+                                                        Designator_var(
+                                                         jedan
+                                                        ) [Designator_var]
+                                                      ) [Factor_des]
+                                                    ) [Factor]
+                                                  ) [TermList_f]
+                                                ) [Term]
+                                              ) [ExprList_t]
+                                            ) [Expr]
+                                          ) [Designator_elem]
+                                          Assignop(
+                                          ) [Assignop]
+                                          Expr(
+                                            ExprList_t(
+                                              Term(
+                                                TermList_f(
+                                                  Factor(
+                                                    Unary_e(
+                                                    ) [Unary_e]
+                                                    Factor_char(
+                                                     b
+                                                    ) [Factor_char]
+                                                  ) [Factor]
+                                                ) [TermList_f]
+                                              ) [Term]
+                                            ) [ExprList_t]
+                                          ) [Expr]
+                                        ) [DesignatorStatement_asssign]
+                                      ) [SingleStatement_desigstmt]
+                                    ) [Statement_nolabel]
+                                    StatementList_statement(
+                                      Statement_nolabel(
+                                        SingleStatement_desigstmt(
+                                          DesignatorStatement_asssign(
+                                            Designator_elem(
+                                              DesignatorArrayName(
+                                               nizch
+                                              ) [DesignatorArrayName]
+                                              Expr(
+                                                ExprList_l(
+                                                  ExprList_t(
+                                                    Term(
+                                                      TermList_f(
+                                                        Factor(
+                                                          Unary_e(
+                                                          ) [Unary_e]
+                                                          Factor_des(
+                                                            Designator_var(
+                                                             pet
+                                                            ) [Designator_var]
+                                                          ) [Factor_des]
+                                                        ) [Factor]
+                                                      ) [TermList_f]
+                                                    ) [Term]
+                                                  ) [ExprList_t]
+                                                  Addop_minus(
+                                                  ) [Addop_minus]
+                                                  Term(
+                                                    TermList_f(
+                                                      Factor(
+                                                        Unary_e(
+                                                        ) [Unary_e]
+                                                        Factor_num(
+                                                         3
+                                                        ) [Factor_num]
+                                                      ) [Factor]
+                                                    ) [TermList_f]
+                                                  ) [Term]
+                                                ) [ExprList_l]
+                                              ) [Expr]
+                                            ) [Designator_elem]
+                                            Assignop(
+                                            ) [Assignop]
+                                            Expr(
+                                              ExprList_t(
+                                                Term(
+                                                  TermList_f(
+                                                    Factor(
+                                                      Unary_e(
+                                                      ) [Unary_e]
+                                                      Factor_char(
+                                                       c
+                                                      ) [Factor_char]
+                                                    ) [Factor]
+                                                  ) [TermList_f]
+                                                ) [Term]
+                                              ) [ExprList_t]
+                                            ) [Expr]
+                                          ) [DesignatorStatement_asssign]
+                                        ) [SingleStatement_desigstmt]
+                                      ) [Statement_nolabel]
+                                      StatementList_statement(
+                                        Statement_nolabel(
+                                          SingleStatement_print(
+                                            Expr(
+                                              ExprList_t(
+                                                Term(
+                                                  TermList_f(
+                                                    Factor(
+                                                      Unary_e(
+                                                      ) [Unary_e]
+                                                      Factor_des(
+                                                        Designator_elem(
+                                                          DesignatorArrayName(
+                                                           nizch
+                                                          ) [DesignatorArrayName]
+                                                          Expr(
+                                                            ExprList_t(
+                                                              Term(
+                                                                TermList_f(
+                                                                  Factor(
+                                                                    Unary_e(
+                                                                    ) [Unary_e]
+                                                                    Factor_num(
+                                                                     1
+                                                                    ) [Factor_num]
+                                                                  ) [Factor]
+                                                                ) [TermList_f]
+                                                              ) [Term]
+                                                            ) [ExprList_t]
+                                                          ) [Expr]
+                                                        ) [Designator_elem]
+                                                      ) [Factor_des]
+                                                    ) [Factor]
+                                                  ) [TermList_f]
+                                                ) [Term]
+                                              ) [ExprList_t]
+                                            ) [Expr]
+                                          ) [SingleStatement_print]
+                                        ) [Statement_nolabel]
+                                        StatementList_statement(
+                                          Statement_nolabel(
+                                            SingleStatement_print(
+                                              Expr(
+                                                ExprList_t(
+                                                  Term(
+                                                    TermList_f(
+                                                      Factor(
+                                                        Unary_e(
+                                                        ) [Unary_e]
+                                                        Factor_des(
+                                                          Designator_elem(
+                                                            DesignatorArrayName(
+                                                             nizch
+                                                            ) [DesignatorArrayName]
+                                                            Expr(
+                                                              ExprList_t(
+                                                                Term(
+                                                                  TermList_m(
+                                                                    TermList_f(
+                                                                      Factor(
+                                                                        Unary_e(
+                                                                        ) [Unary_e]
+                                                                        Factor_des(
+                                                                          Designator_var(
+                                                                           jedan
+                                                                          ) [Designator_var]
+                                                                        ) [Factor_des]
+                                                                      ) [Factor]
+                                                                    ) [TermList_f]
+                                                                    Mulop_mul(
+                                                                    ) [Mulop_mul]
+                                                                    Factor(
+                                                                      Unary_e(
+                                                                      ) [Unary_e]
+                                                                      Factor_num(
+                                                                       2
+                                                                      ) [Factor_num]
+                                                                    ) [Factor]
+                                                                  ) [TermList_m]
+                                                                ) [Term]
+                                                              ) [ExprList_t]
+                                                            ) [Expr]
+                                                          ) [Designator_elem]
+                                                        ) [Factor_des]
+                                                      ) [Factor]
+                                                    ) [TermList_f]
+                                                  ) [Term]
+                                                ) [ExprList_t]
+                                              ) [Expr]
+                                            ) [SingleStatement_print]
+                                          ) [Statement_nolabel]
+                                          StatementList_statement(
+                                            Statement_nolabel(
+                                              SingleStatement_desigstmt(
+                                                DesignatorStatement_asssign(
+                                                  Designator_var(
+                                                   bodovi
+                                                  ) [Designator_var]
+                                                  Assignop(
+                                                  ) [Assignop]
+                                                  Expr(
+                                                    ExprList_l(
+                                                      ExprList_l(
+                                                        ExprList_t(
+                                                          Term(
+                                                            TermList_f(
+                                                              Factor(
+                                                                Unary_e(
+                                                                ) [Unary_e]
+                                                                Factor_des(
+                                                                  Designator_var(
+                                                                   bodovi
+                                                                  ) [Designator_var]
+                                                                ) [Factor_des]
+                                                              ) [Factor]
+                                                            ) [TermList_f]
+                                                          ) [Term]
+                                                        ) [ExprList_t]
+                                                        Addop_plus(
+                                                        ) [Addop_plus]
+                                                        Term(
+                                                          TermList_m(
+                                                            TermList_f(
+                                                              Factor(
+                                                                Unary_e(
+                                                                ) [Unary_e]
+                                                                Factor_paren(
+                                                                  Expr(
+                                                                    ExprList_l(
+                                                                      ExprList_t(
+                                                                        Term(
+                                                                          TermList_m(
+                                                                            TermList_f(
+                                                                              Factor(
+                                                                                Unary_e(
+                                                                                ) [Unary_e]
+                                                                                Factor_des(
+                                                                                  Designator_var(
+                                                                                   pet
+                                                                                  ) [Designator_var]
+                                                                                ) [Factor_des]
+                                                                              ) [Factor]
+                                                                            ) [TermList_f]
+                                                                            Mulop_mul(
+                                                                            ) [Mulop_mul]
+                                                                            Factor(
+                                                                              Unary_e(
+                                                                              ) [Unary_e]
+                                                                              Factor_des(
+                                                                                Designator_var(
+                                                                                 jedan
+                                                                                ) [Designator_var]
+                                                                              ) [Factor_des]
+                                                                            ) [Factor]
+                                                                          ) [TermList_m]
+                                                                        ) [Term]
+                                                                      ) [ExprList_t]
+                                                                      Addop_minus(
+                                                                      ) [Addop_minus]
+                                                                      Term(
+                                                                        TermList_f(
+                                                                          Factor(
+                                                                            Unary_e(
+                                                                            ) [Unary_e]
+                                                                            Factor_num(
+                                                                             1
+                                                                            ) [Factor_num]
+                                                                          ) [Factor]
+                                                                        ) [TermList_f]
+                                                                      ) [Term]
+                                                                    ) [ExprList_l]
+                                                                  ) [Expr]
+                                                                ) [Factor_paren]
+                                                              ) [Factor]
+                                                            ) [TermList_f]
+                                                            Mulop_mul(
+                                                            ) [Mulop_mul]
+                                                            Factor(
+                                                              Unary_e(
+                                                              ) [Unary_e]
+                                                              Factor_des(
+                                                                Designator_var(
+                                                                 bodovi
+                                                                ) [Designator_var]
+                                                              ) [Factor_des]
+                                                            ) [Factor]
+                                                          ) [TermList_m]
+                                                        ) [Term]
+                                                      ) [ExprList_l]
+                                                      Addop_minus(
+                                                      ) [Addop_minus]
+                                                      Term(
+                                                        TermList_f(
+                                                          Factor(
+                                                            Unary_e(
+                                                            ) [Unary_e]
+                                                            Factor_paren(
+                                                              Expr(
+                                                                ExprList_l(
+                                                                  ExprList_l(
+                                                                    ExprList_t(
+                                                                      Term(
+                                                                        TermList_m(
+                                                                          TermList_f(
+                                                                            Factor(
+                                                                              Unary_e(
+                                                                              ) [Unary_e]
+                                                                              Factor_num(
+                                                                               3
+                                                                              ) [Factor_num]
+                                                                            ) [Factor]
+                                                                          ) [TermList_f]
+                                                                          Mulop_mod(
+                                                                          ) [Mulop_mod]
+                                                                          Factor(
+                                                                            Unary_e(
+                                                                            ) [Unary_e]
+                                                                            Factor_num(
+                                                                             2
+                                                                            ) [Factor_num]
+                                                                          ) [Factor]
+                                                                        ) [TermList_m]
+                                                                      ) [Term]
+                                                                    ) [ExprList_t]
+                                                                    Addop_plus(
+                                                                    ) [Addop_plus]
+                                                                    Term(
+                                                                      TermList_m(
+                                                                        TermList_f(
+                                                                          Factor(
+                                                                            Unary_e(
+                                                                            ) [Unary_e]
+                                                                            Factor_num(
+                                                                             3
+                                                                            ) [Factor_num]
+                                                                          ) [Factor]
+                                                                        ) [TermList_f]
+                                                                        Mulop_mul(
+                                                                        ) [Mulop_mul]
+                                                                        Factor(
+                                                                          Unary_e(
+                                                                          ) [Unary_e]
+                                                                          Factor_num(
+                                                                           2
+                                                                          ) [Factor_num]
+                                                                        ) [Factor]
+                                                                      ) [TermList_m]
+                                                                    ) [Term]
+                                                                  ) [ExprList_l]
+                                                                  Addop_minus(
+                                                                  ) [Addop_minus]
+                                                                  Term(
+                                                                    TermList_f(
+                                                                      Factor(
+                                                                        Unary_e(
+                                                                        ) [Unary_e]
+                                                                        Factor_num(
+                                                                         3
+                                                                        ) [Factor_num]
+                                                                      ) [Factor]
+                                                                    ) [TermList_f]
+                                                                  ) [Term]
+                                                                ) [ExprList_l]
+                                                              ) [Expr]
+                                                            ) [Factor_paren]
+                                                          ) [Factor]
+                                                        ) [TermList_f]
+                                                      ) [Term]
+                                                    ) [ExprList_l]
+                                                  ) [Expr]
+                                                ) [DesignatorStatement_asssign]
+                                              ) [SingleStatement_desigstmt]
+                                            ) [Statement_nolabel]
+                                            StatementList_statement(
+                                              Statement_nolabel(
+                                                SingleStatement_print(
+                                                  Expr(
+                                                    ExprList_t(
+                                                      Term(
+                                                        TermList_f(
+                                                          Factor(
+                                                            Unary_e(
+                                                            ) [Unary_e]
+                                                            Factor_des(
+                                                              Designator_var(
+                                                               bodovi
+                                                              ) [Designator_var]
+                                                            ) [Factor_des]
+                                                          ) [Factor]
+                                                        ) [TermList_f]
+                                                      ) [Term]
+                                                    ) [ExprList_t]
+                                                  ) [Expr]
+                                                ) [SingleStatement_print]
+                                              ) [Statement_nolabel]
+                                              StatementList_statement(
+                                                Statement_nolabel(
+                                                  SingleStatement_read(
+                                                    Designator_var(
+                                                     bodovi
+                                                    ) [Designator_var]
+                                                  ) [SingleStatement_read]
+                                                ) [Statement_nolabel]
+                                                StatementList_statement(
+                                                  Statement_nolabel(
+                                                    SingleStatement_print(
+                                                      Expr(
+                                                        ExprList_t(
+                                                          Term(
+                                                            TermList_f(
+                                                              Factor(
+                                                                Unary_e(
+                                                                ) [Unary_e]
+                                                                Factor_des(
+                                                                  Designator_var(
+                                                                   bodovi
+                                                                  ) [Designator_var]
+                                                                ) [Factor_des]
+                                                              ) [Factor]
+                                                            ) [TermList_f]
+                                                          ) [Term]
+                                                        ) [ExprList_t]
+                                                      ) [Expr]
+                                                    ) [SingleStatement_print]
+                                                  ) [Statement_nolabel]
+                                                  StatementList_statement(
+                                                    Statement_nolabel(
+                                                      SingleStatement_desigstmt(
+                                                        DesignatorStatement_inc(
+                                                          Designator_var(
+                                                           bodovi
+                                                          ) [Designator_var]
+                                                        ) [DesignatorStatement_inc]
+                                                      ) [SingleStatement_desigstmt]
+                                                    ) [Statement_nolabel]
+                                                    StatementList_statement(
+                                                      Statement_nolabel(
+                                                        SingleStatement_goto(
+                                                          GoToLabel(
+                                                           labela1
+                                                          ) [GoToLabel]
+                                                        ) [SingleStatement_goto]
+                                                      ) [Statement_nolabel]
+                                                      StatementList_statement(
+                                                        Statement_nolabel(
+                                                          SingleStatement_desigstmt(
+                                                            DesignatorStatement_asssign(
+                                                              Designator_var(
+                                                               bodovi
+                                                              ) [Designator_var]
+                                                              Assignop(
+                                                              ) [Assignop]
+                                                              Expr(
+                                                                ExprList_t(
+                                                                  Term(
+                                                                    TermList_m(
+                                                                      TermList_f(
+                                                                        Factor(
+                                                                          Unary_e(
+                                                                          ) [Unary_e]
+                                                                          Factor_des(
+                                                                            Designator_var(
+                                                                             bodovi
+                                                                            ) [Designator_var]
+                                                                          ) [Factor_des]
+                                                                        ) [Factor]
+                                                                      ) [TermList_f]
+                                                                      Mulop_mul(
+                                                                      ) [Mulop_mul]
+                                                                      Factor(
+                                                                        Unary_e(
+                                                                        ) [Unary_e]
+                                                                        Factor_num(
+                                                                         2
+                                                                        ) [Factor_num]
+                                                                      ) [Factor]
+                                                                    ) [TermList_m]
+                                                                  ) [Term]
+                                                                ) [ExprList_t]
+                                                              ) [Expr]
+                                                            ) [DesignatorStatement_asssign]
+                                                          ) [SingleStatement_desigstmt]
+                                                        ) [Statement_nolabel]
+                                                        StatementList_statement(
+                                                          Statement_nolabel(
+                                                            SingleStatement_desigstmt(
+                                                              DesignatorStatement_dec(
+                                                                Designator_var(
+                                                                 bodovi
+                                                                ) [Designator_var]
+                                                              ) [DesignatorStatement_dec]
+                                                            ) [SingleStatement_desigstmt]
+                                                          ) [Statement_nolabel]
+                                                          StatementList_statement(
+                                                            Statement_label(
+                                                              Label(
+                                                               labela1
+                                                              ) [Label]
+                                                              SingleStatement_desigstmt(
+                                                                DesignatorStatement_asssign(
+                                                                  Designator_var(
+                                                                   bodovi
+                                                                  ) [Designator_var]
+                                                                  Assignop(
+                                                                  ) [Assignop]
+                                                                  Expr(
+                                                                    ExprList_l(
+                                                                      ExprList_t(
+                                                                        Term(
+                                                                          TermList_f(
+                                                                            Factor(
+                                                                              Unary_e(
+                                                                              ) [Unary_e]
+                                                                              Factor_des(
+                                                                                Designator_var(
+                                                                                 bodovi
+                                                                                ) [Designator_var]
+                                                                              ) [Factor_des]
+                                                                            ) [Factor]
+                                                                          ) [TermList_f]
+                                                                        ) [Term]
+                                                                      ) [ExprList_t]
+                                                                      Addop_plus(
+                                                                      ) [Addop_plus]
+                                                                      Term(
+                                                                        TermList_f(
+                                                                          Factor(
+                                                                            Unary_e(
+                                                                            ) [Unary_e]
+                                                                            Factor_num(
+                                                                             3
+                                                                            ) [Factor_num]
+                                                                          ) [Factor]
+                                                                        ) [TermList_f]
+                                                                      ) [Term]
+                                                                    ) [ExprList_l]
+                                                                  ) [Expr]
+                                                                ) [DesignatorStatement_asssign]
+                                                              ) [SingleStatement_desigstmt]
+                                                            ) [Statement_label]
+                                                            StatementList_statement(
+                                                              Statement_nolabel(
+                                                                SingleStatement_print(
+                                                                  Expr(
+                                                                    ExprList_t(
+                                                                      Term(
+                                                                        TermList_f(
+                                                                          Factor(
+                                                                            Unary_e(
+                                                                            ) [Unary_e]
+                                                                            Factor_des(
+                                                                              Designator_var(
+                                                                               bodovi
+                                                                              ) [Designator_var]
+                                                                            ) [Factor_des]
+                                                                          ) [Factor]
+                                                                        ) [TermList_f]
+                                                                      ) [Term]
+                                                                    ) [ExprList_t]
+                                                                  ) [Expr]
+                                                                ) [SingleStatement_print]
+                                                              ) [Statement_nolabel]
+                                                              StatementList_statement(
+                                                                Statement_nolabel(
+                                                                  SingleStatement_goto(
+                                                                    GoToLabel(
+                                                                     labelaminus
+                                                                    ) [GoToLabel]
+                                                                  ) [SingleStatement_goto]
+                                                                ) [Statement_nolabel]
+                                                                StatementList_statement(
+                                                                  Statement_nolabel(
+                                                                    SingleStatement_print(
+                                                                      Expr(
+                                                                        ExprList_t(
+                                                                          Term(
+                                                                            TermList_f(
+                                                                              Factor(
+                                                                                Unary_e(
+                                                                                ) [Unary_e]
+                                                                                Factor_char(
+                                                                                 +
+                                                                                ) [Factor_char]
+                                                                              ) [Factor]
+                                                                            ) [TermList_f]
+                                                                          ) [Term]
+                                                                        ) [ExprList_t]
+                                                                      ) [Expr]
+                                                                    ) [SingleStatement_print]
+                                                                  ) [Statement_nolabel]
+                                                                  StatementList_statement(
+                                                                    Statement_label(
+                                                                      Label(
+                                                                       labelaminus
+                                                                      ) [Label]
+                                                                      SingleStatement_print(
+                                                                        Expr(
+                                                                          ExprList_t(
+                                                                            Term(
+                                                                              TermList_f(
+                                                                                Factor(
+                                                                                  Unary_e(
+                                                                                  ) [Unary_e]
+                                                                                  Factor_char(
+                                                                                   -
+                                                                                  ) [Factor_char]
+                                                                                ) [Factor]
+                                                                              ) [TermList_f]
+                                                                            ) [Term]
+                                                                          ) [ExprList_t]
+                                                                        ) [Expr]
+                                                                      ) [SingleStatement_print]
+                                                                    ) [Statement_label]
+                                                                    StatementList_e(
+                                                                    ) [StatementList_e]
+                                                                  ) [StatementList_statement]
+                                                                ) [StatementList_statement]
+                                                              ) [StatementList_statement]
+                                                            ) [StatementList_statement]
+                                                          ) [StatementList_statement]
+                                                        ) [StatementList_statement]
+                                                      ) [StatementList_statement]
+                                                    ) [StatementList_statement]
+                                                  ) [StatementList_statement]
+                                                ) [StatementList_statement]
+                                              ) [StatementList_statement]
+                                            ) [StatementList_statement]
+                                          ) [StatementList_statement]
+                                        ) [StatementList_statement]
+                                      ) [StatementList_statement]
+                                    ) [StatementList_statement]
+                                  ) [StatementList_statement]
+                                ) [StatementList_statement]
+                              ) [StatementList_statement]
+                            ) [StatementList_statement]
+                          ) [StatementList_statement]
+                        ) [StatementList_statement]
+                      ) [StatementList_statement]
+                    ) [StatementList_statement]
+                  ) [StatementList_statement]
+                ) [StatementList_statement]
+              ) [StatementList_statement]
+            ) [StatementList_statement]
+          ) [StatementList_statement]
+        ) [StatementList_statement]
+      ) [StatementList_statement]
+    ) [StatementList_statement]
+  ) [MethDecl]
+) [Program]
+INFO  10:48:40,901 - ===================================
+INFO  10:48:40,902 - *Obrada funkcije main na liniji 13
+INFO  10:48:40,904 -  Print count calls = 0
+INFO  10:48:40,904 -  Deklarisanih promenljivih ima = 0
+INFO  10:48:40,904 - ===================================
+INFO  10:48:40,908 - Parsiranje uspesno zavrseno!

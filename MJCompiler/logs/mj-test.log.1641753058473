@@ -1,0 +1,50 @@
+INFO  19:26:36,285 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:26:36,360 - #2 program
+INFO  19:26:36,361 - #33 MJProgram
+INFO  19:26:36,361 - #33 int
+INFO  19:26:36,365 - #33 x
+INFO  19:26:36,367 - #8 ,
+INFO  19:26:36,367 - #33 y
+INFO  19:26:36,367 - #6 ;
+INFO  19:26:36,368 - #3 {
+INFO  19:26:36,369 - #9 void
+INFO  19:26:36,369 - #33 main
+INFO  19:26:36,369 - #10 (
+INFO  19:26:36,370 - #11 )
+INFO  19:26:36,370 - #3 {
+INFO  19:26:36,371 - #4 }
+INFO  19:26:36,372 - #4 }
+INFO  19:26:36,374 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl_identonly(
+       x
+      ) [VarDecl_identonly]
+      VarDeclMore_comma(
+        VarDecl_identonly(
+         y
+        ) [VarDecl_identonly]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_comma]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    MethDeclName(
+     main
+    ) [MethDeclName]
+    MethVarDeclList_e(
+    ) [MethVarDeclList_e]
+    StatementList_e(
+    ) [StatementList_e]
+  ) [MethDecl]
+) [Program]
+INFO  19:26:36,375 - ===================================

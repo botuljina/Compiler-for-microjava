@@ -1,0 +1,96 @@
+INFO  17:50:00,736 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:50:00,768 - #2 program
+INFO  17:50:00,769 - #33 MJProgram
+INFO  17:50:00,769 - #5 const
+INFO  17:50:00,770 - #33 int
+INFO  17:50:00,770 - #33 a
+INFO  17:50:00,771 - #7 =
+INFO  17:50:00,771 - #34 5
+INFO  17:50:00,771 - #6 ;
+INFO  17:50:00,773 - #5 const
+INFO  17:50:00,773 - #33 char
+INFO  17:50:00,774 - #33 d
+INFO  17:50:00,774 - #7 =
+INFO  17:50:00,774 - #36 b
+INFO  17:50:00,774 - #6 ;
+INFO  17:50:00,774 - #5 const
+INFO  17:50:00,774 - #33 int
+INFO  17:50:00,774 - #33 a
+INFO  17:50:00,774 - #7 =
+INFO  17:50:00,775 - #34 7
+INFO  17:50:00,775 - #6 ;
+INFO  17:50:00,775 - #3 {
+INFO  17:50:00,775 - #9 void
+INFO  17:50:00,775 - #33 main
+INFO  17:50:00,776 - #10 (
+INFO  17:50:00,776 - #11 )
+INFO  17:50:00,777 - #3 {
+INFO  17:50:00,777 - #4 }
+INFO  17:50:00,778 - #4 }
+INFO  17:50:00,791 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ConVarDeclList_con(
+    ConVarDeclList_con(
+      ConVarDeclList_con(
+        ConVarDeclList_e(
+        ) [ConVarDeclList_e]
+        ConDeclList(
+          Type(
+           int
+          ) [Type]
+          ConDecl(
+           a
+            Constant_n(
+             5
+            ) [Constant_n]
+          ) [ConDecl]
+          ConDeclMore_e(
+          ) [ConDeclMore_e]
+        ) [ConDeclList]
+      ) [ConVarDeclList_con]
+      ConDeclList(
+        Type(
+         char
+        ) [Type]
+        ConDecl(
+         d
+          Constant_c(
+           b
+          ) [Constant_c]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConDeclList]
+    ) [ConVarDeclList_con]
+    ConDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       a
+        Constant_n(
+         7
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDeclList]
+  ) [ConVarDeclList_con]
+  MethDecl(
+    MethDeclName(
+     main
+    ) [MethDeclName]
+    MethVarDeclList_e(
+    ) [MethVarDeclList_e]
+    StatementList_e(
+    ) [StatementList_e]
+  ) [MethDecl]
+) [Program]
+INFO  17:50:00,791 - ===================================
+ERROR 17:50:00,795 - Dvostruka definicja konstante sa nazivoma na liniji 4
+INFO  17:50:00,796 -  Print count calls = 0
+INFO  17:50:00,796 -  Deklarisanih promenljivih ima = 0
+INFO  17:50:00,796 - ===================================
+ERROR 17:50:00,796 - Parsiranje NIJE uspesno zavrseno!

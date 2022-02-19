@@ -1,0 +1,79 @@
+INFO  19:20:14,408 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:20:14,429 - #2 program
+INFO  19:20:14,429 - #33 Keske
+INFO  19:20:14,429 - #33 int
+INFO  19:20:14,430 - #33 x
+INFO  19:20:14,430 - #8 ,
+INFO  19:20:14,430 - #33 y
+INFO  19:20:14,431 - #12 [
+INFO  19:20:14,431 - #13 ]
+INFO  19:20:14,431 - #6 ;
+INFO  19:20:14,431 - #3 {
+INFO  19:20:14,432 - #9 void
+INFO  19:20:14,432 - #33 main
+INFO  19:20:14,432 - #10 (
+INFO  19:20:14,432 - #11 )
+INFO  19:20:14,432 - #33 int
+INFO  19:20:14,433 - #33 a
+INFO  19:20:14,433 - #8 ,
+INFO  19:20:14,433 - #33 b
+INFO  19:20:14,433 - #6 ;
+INFO  19:20:14,433 - #3 {
+INFO  19:20:14,434 - #4 }
+INFO  19:20:14,434 - #4 }
+INFO  19:20:14,438 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl_identonly(
+       x
+      ) [VarDecl_identonly]
+      VarDeclMore_comma(
+        VarDecl_braces(
+         y
+        ) [VarDecl_braces]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_comma]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    MethDeclName(
+     main
+    ) [MethDeclName]
+    MethVarDeclList_vardecl(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_identonly(
+         a
+        ) [VarDecl_identonly]
+        VarDeclMore_comma(
+          VarDecl_identonly(
+           b
+          ) [VarDecl_identonly]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclMore_comma]
+      ) [VarDeclList]
+      MethVarDeclList_e(
+      ) [MethVarDeclList_e]
+    ) [MethVarDeclList_vardecl]
+    StatementList_e(
+    ) [StatementList_e]
+  ) [MethDecl]
+) [Program]
+INFO  19:20:14,439 - ===================================
+INFO  19:20:14,441 - Obrada funkcije main na liniji 6
+INFO  19:20:14,441 -  Print count calls = 0
+INFO  19:20:14,441 -  Deklarisanih promenljivih ima = 0
+INFO  19:20:14,441 - ===================================
+INFO  19:20:14,444 - Parsiranje uspesno zavrseno!

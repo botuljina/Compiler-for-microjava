@@ -1,0 +1,158 @@
+INFO  21:42:34,577 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  21:42:34,595 - #2 program
+INFO  21:42:34,595 - #33 MJProgram
+INFO  21:42:34,595 - #5 const
+INFO  21:42:34,596 - #33 int
+INFO  21:42:34,596 - #33 a
+INFO  21:42:34,596 - #7 =
+INFO  21:42:34,596 - #34 5
+INFO  21:42:34,596 - #6 ;
+INFO  21:42:34,597 - #5 const
+INFO  21:42:34,597 - #33 char
+INFO  21:42:34,597 - #33 d
+INFO  21:42:34,597 - #7 =
+INFO  21:42:34,598 - #36 b
+INFO  21:42:34,598 - #6 ;
+INFO  21:42:34,598 - #33 char
+INFO  21:42:34,598 - #33 c
+INFO  21:42:34,598 - #6 ;
+INFO  21:42:34,599 - #33 char
+INFO  21:42:34,600 - #33 g
+INFO  21:42:34,600 - #6 ;
+INFO  21:42:34,600 - #33 char
+INFO  21:42:34,600 - #33 s
+INFO  21:42:34,601 - #6 ;
+INFO  21:42:34,601 - #33 pick
+INFO  21:42:34,601 - #33 t
+INFO  21:42:34,601 - #6 ;
+INFO  21:42:34,601 - #33 int
+INFO  21:42:34,601 - #33 d
+INFO  21:42:34,601 - #8 ,
+INFO  21:42:34,601 - #33 m
+INFO  21:42:34,601 - #6 ;
+INFO  21:42:34,601 - #3 {
+INFO  21:42:34,602 - #9 void
+INFO  21:42:34,602 - #33 main
+INFO  21:42:34,602 - #10 (
+INFO  21:42:34,602 - #11 )
+INFO  21:42:34,603 - #3 {
+INFO  21:42:34,603 - #4 }
+INFO  21:42:34,603 - #4 }
+INFO  21:42:34,608 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_var(
+        ConVarDeclList_var(
+          ConVarDeclList_var(
+            ConVarDeclList_con(
+              ConVarDeclList_con(
+                ConVarDeclList_e(
+                ) [ConVarDeclList_e]
+                ConDeclList(
+                  Type(
+                   int
+                  ) [Type]
+                  ConDecl(
+                   a
+                    Constant_n(
+                     5
+                    ) [Constant_n]
+                  ) [ConDecl]
+                  ConDeclMore_e(
+                  ) [ConDeclMore_e]
+                ) [ConDeclList]
+              ) [ConVarDeclList_con]
+              ConDeclList(
+                Type(
+                 char
+                ) [Type]
+                ConDecl(
+                 d
+                  Constant_c(
+                   b
+                  ) [Constant_c]
+                ) [ConDecl]
+                ConDeclMore_e(
+                ) [ConDeclMore_e]
+              ) [ConDeclList]
+            ) [ConVarDeclList_con]
+            VarDeclList(
+              Type(
+               char
+              ) [Type]
+              VarDecl_identonly(
+               c
+              ) [VarDecl_identonly]
+              VarDeclMore_e(
+              ) [VarDeclMore_e]
+            ) [VarDeclList]
+          ) [ConVarDeclList_var]
+          VarDeclList(
+            Type(
+             char
+            ) [Type]
+            VarDecl_identonly(
+             g
+            ) [VarDecl_identonly]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [ConVarDeclList_var]
+        VarDeclList(
+          Type(
+           char
+          ) [Type]
+          VarDecl_identonly(
+           s
+          ) [VarDecl_identonly]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [ConVarDeclList_var]
+      VarDeclList(
+        Type(
+         pick
+        ) [Type]
+        VarDecl_identonly(
+         t
+        ) [VarDecl_identonly]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl_identonly(
+       d
+      ) [VarDecl_identonly]
+      VarDeclMore_comma(
+        VarDecl_identonly(
+         m
+        ) [VarDecl_identonly]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_comma]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    MethDeclName(
+     main
+    ) [MethDeclName]
+    MethVarDeclList_e(
+    ) [MethVarDeclList_e]
+    StatementList_e(
+    ) [StatementList_e]
+  ) [MethDecl]
+) [Program]
+INFO  21:42:34,608 - ===================================
+ERROR 21:42:34,609 - nepostojeci tippick na liniji 9
+ERROR 21:42:34,610 - Dupla definicija promenljive na liniji 10
+INFO  21:42:34,610 -  Print count calls = 0
+INFO  21:42:34,610 -  Deklarisanih promenljivih ima = 0
+INFO  21:42:34,610 - ===================================
+ERROR 21:42:34,610 - Parsiranje NIJE uspesno zavrseno!

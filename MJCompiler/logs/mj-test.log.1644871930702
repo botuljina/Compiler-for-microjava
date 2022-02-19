@@ -1,0 +1,176 @@
+INFO  21:52:00,891 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  21:52:00,915 - #2 program
+INFO  21:52:00,916 - #33 MJProgram
+INFO  21:52:00,916 - #5 const
+INFO  21:52:00,917 - #33 int
+INFO  21:52:00,917 - #33 a
+INFO  21:52:00,918 - #7 =
+INFO  21:52:00,918 - #34 5
+INFO  21:52:00,918 - #6 ;
+INFO  21:52:00,919 - #5 const
+INFO  21:52:00,920 - #33 char
+INFO  21:52:00,920 - #33 d
+INFO  21:52:00,920 - #7 =
+INFO  21:52:00,920 - #36 b
+INFO  21:52:00,921 - #6 ;
+INFO  21:52:00,921 - #33 char
+INFO  21:52:00,921 - #33 c
+INFO  21:52:00,921 - #6 ;
+INFO  21:52:00,921 - #33 char
+INFO  21:52:00,922 - #33 g
+INFO  21:52:00,922 - #6 ;
+INFO  21:52:00,922 - #33 char
+INFO  21:52:00,922 - #33 s
+INFO  21:52:00,923 - #6 ;
+INFO  21:52:00,923 - #33 int
+INFO  21:52:00,923 - #33 t
+INFO  21:52:00,923 - #12 [
+INFO  21:52:00,923 - #13 ]
+INFO  21:52:00,923 - #6 ;
+INFO  21:52:00,923 - #33 int
+INFO  21:52:00,923 - #33 c1
+INFO  21:52:00,923 - #8 ,
+INFO  21:52:00,923 - #33 c2
+INFO  21:52:00,923 - #6 ;
+INFO  21:52:00,924 - #33 int
+INFO  21:52:00,924 - #33 t
+INFO  21:52:00,924 - #12 [
+INFO  21:52:00,924 - #13 ]
+INFO  21:52:00,924 - #6 ;
+INFO  21:52:00,924 - #3 {
+INFO  21:52:00,924 - #9 void
+INFO  21:52:00,924 - #33 main
+INFO  21:52:00,924 - #10 (
+INFO  21:52:00,925 - #11 )
+INFO  21:52:00,925 - #3 {
+INFO  21:52:00,925 - #4 }
+INFO  21:52:00,926 - #4 }
+INFO  21:52:00,930 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_var(
+        ConVarDeclList_var(
+          ConVarDeclList_var(
+            ConVarDeclList_var(
+              ConVarDeclList_con(
+                ConVarDeclList_con(
+                  ConVarDeclList_e(
+                  ) [ConVarDeclList_e]
+                  ConDeclList(
+                    Type(
+                     int
+                    ) [Type]
+                    ConDecl(
+                     a
+                      Constant_n(
+                       5
+                      ) [Constant_n]
+                    ) [ConDecl]
+                    ConDeclMore_e(
+                    ) [ConDeclMore_e]
+                  ) [ConDeclList]
+                ) [ConVarDeclList_con]
+                ConDeclList(
+                  Type(
+                   char
+                  ) [Type]
+                  ConDecl(
+                   d
+                    Constant_c(
+                     b
+                    ) [Constant_c]
+                  ) [ConDecl]
+                  ConDeclMore_e(
+                  ) [ConDeclMore_e]
+                ) [ConDeclList]
+              ) [ConVarDeclList_con]
+              VarDeclList(
+                Type(
+                 char
+                ) [Type]
+                VarDecl_identonly(
+                 c
+                ) [VarDecl_identonly]
+                VarDeclMore_e(
+                ) [VarDeclMore_e]
+              ) [VarDeclList]
+            ) [ConVarDeclList_var]
+            VarDeclList(
+              Type(
+               char
+              ) [Type]
+              VarDecl_identonly(
+               g
+              ) [VarDecl_identonly]
+              VarDeclMore_e(
+              ) [VarDeclMore_e]
+            ) [VarDeclList]
+          ) [ConVarDeclList_var]
+          VarDeclList(
+            Type(
+             char
+            ) [Type]
+            VarDecl_identonly(
+             s
+            ) [VarDecl_identonly]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [ConVarDeclList_var]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl_braces(
+           t
+          ) [VarDecl_braces]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [ConVarDeclList_var]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_identonly(
+         c1
+        ) [VarDecl_identonly]
+        VarDeclMore_comma(
+          VarDecl_identonly(
+           c2
+          ) [VarDecl_identonly]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclMore_comma]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl_braces(
+       t
+      ) [VarDecl_braces]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    MethDeclName(
+     main
+    ) [MethDeclName]
+    MethVarDeclList_e(
+    ) [MethVarDeclList_e]
+    StatementList_e(
+    ) [StatementList_e]
+  ) [MethDecl]
+) [Program]
+INFO  21:52:00,931 - ===================================
+ERROR 21:52:00,932 - Dupla definicija promenljive na liniji 13
+INFO  21:52:00,932 -  Print count calls = 0
+INFO  21:52:00,932 -  Deklarisanih promenljivih ima = 0
+INFO  21:52:00,932 - ===================================
+ERROR 21:52:00,933 - Parsiranje NIJE uspesno zavrseno!

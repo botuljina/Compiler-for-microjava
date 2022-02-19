@@ -1,0 +1,54 @@
+INFO  14:19:59,191 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  14:19:59,210 - #2 program
+INFO  14:19:59,210 - #33 MJProgram
+INFO  14:19:59,210 - #33 int
+INFO  14:19:59,211 - #33 x
+INFO  14:19:59,211 - #8 ,
+INFO  14:19:59,211 - #33 y
+INFO  14:19:59,211 - #6 ;
+INFO  14:19:59,212 - #3 {
+INFO  14:19:59,213 - #9 void
+INFO  14:19:59,213 - #33 main
+INFO  14:19:59,213 - #10 (
+INFO  14:19:59,214 - #11 )
+INFO  14:19:59,214 - #3 {
+INFO  14:19:59,215 - #4 }
+INFO  14:19:59,216 - #4 }
+INFO  14:19:59,220 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl_identonly(
+       x
+      ) [VarDecl_identonly]
+      VarDeclMore_comma(
+        VarDecl_identonly(
+         y
+        ) [VarDecl_identonly]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_comma]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    MethDeclName(
+     main
+    ) [MethDeclName]
+    MethVarDeclList_e(
+    ) [MethVarDeclList_e]
+    StatementList_e(
+    ) [StatementList_e]
+  ) [MethDecl]
+) [Program]
+INFO  14:19:59,220 - ===================================
+INFO  14:19:59,222 -  Print count calls = 0
+INFO  14:19:59,222 -  Deklarisanih promenljivih ima = 0
+INFO  14:19:59,222 - ===================================
+INFO  14:19:59,223 - Parsiranje uspesno zavrseno!

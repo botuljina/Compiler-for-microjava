@@ -1,0 +1,142 @@
+INFO  21:42:51,742 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  21:42:51,760 - #2 program
+INFO  21:42:51,760 - #33 MJProgram
+INFO  21:42:51,760 - #5 const
+INFO  21:42:51,761 - #33 int
+INFO  21:42:51,761 - #33 a
+INFO  21:42:51,761 - #7 =
+INFO  21:42:51,761 - #34 5
+INFO  21:42:51,761 - #6 ;
+INFO  21:42:51,762 - #5 const
+INFO  21:42:51,763 - #33 char
+INFO  21:42:51,763 - #33 d
+INFO  21:42:51,763 - #7 =
+INFO  21:42:51,763 - #36 b
+INFO  21:42:51,763 - #6 ;
+INFO  21:42:51,763 - #33 char
+INFO  21:42:51,763 - #33 c
+INFO  21:42:51,763 - #6 ;
+INFO  21:42:51,763 - #33 char
+INFO  21:42:51,764 - #33 g
+INFO  21:42:51,765 - #6 ;
+INFO  21:42:51,765 - #33 char
+INFO  21:42:51,765 - #33 s
+INFO  21:42:51,765 - #6 ;
+INFO  21:42:51,765 - #33 char
+INFO  21:42:51,765 - #33 d
+INFO  21:42:51,765 - #8 ,
+INFO  21:42:51,766 - #33 m
+INFO  21:42:51,766 - #6 ;
+INFO  21:42:51,766 - #3 {
+INFO  21:42:51,766 - #9 void
+INFO  21:42:51,766 - #33 main
+INFO  21:42:51,766 - #10 (
+INFO  21:42:51,766 - #11 )
+INFO  21:42:51,766 - #3 {
+INFO  21:42:51,767 - #4 }
+INFO  21:42:51,767 - #4 }
+INFO  21:42:51,771 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_var(
+        ConVarDeclList_var(
+          ConVarDeclList_con(
+            ConVarDeclList_con(
+              ConVarDeclList_e(
+              ) [ConVarDeclList_e]
+              ConDeclList(
+                Type(
+                 int
+                ) [Type]
+                ConDecl(
+                 a
+                  Constant_n(
+                   5
+                  ) [Constant_n]
+                ) [ConDecl]
+                ConDeclMore_e(
+                ) [ConDeclMore_e]
+              ) [ConDeclList]
+            ) [ConVarDeclList_con]
+            ConDeclList(
+              Type(
+               char
+              ) [Type]
+              ConDecl(
+               d
+                Constant_c(
+                 b
+                ) [Constant_c]
+              ) [ConDecl]
+              ConDeclMore_e(
+              ) [ConDeclMore_e]
+            ) [ConDeclList]
+          ) [ConVarDeclList_con]
+          VarDeclList(
+            Type(
+             char
+            ) [Type]
+            VarDecl_identonly(
+             c
+            ) [VarDecl_identonly]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [ConVarDeclList_var]
+        VarDeclList(
+          Type(
+           char
+          ) [Type]
+          VarDecl_identonly(
+           g
+          ) [VarDecl_identonly]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [ConVarDeclList_var]
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarDecl_identonly(
+         s
+        ) [VarDecl_identonly]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      Type(
+       char
+      ) [Type]
+      VarDecl_identonly(
+       d
+      ) [VarDecl_identonly]
+      VarDeclMore_comma(
+        VarDecl_identonly(
+         m
+        ) [VarDecl_identonly]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_comma]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    MethDeclName(
+     main
+    ) [MethDeclName]
+    MethVarDeclList_e(
+    ) [MethVarDeclList_e]
+    StatementList_e(
+    ) [StatementList_e]
+  ) [MethDecl]
+) [Program]
+INFO  21:42:51,771 - ===================================
+ERROR 21:42:51,772 - Dupla definicija promenljive na liniji 9
+INFO  21:42:51,773 -  Print count calls = 0
+INFO  21:42:51,773 -  Deklarisanih promenljivih ima = 0
+INFO  21:42:51,773 - ===================================
+ERROR 21:42:51,773 - Parsiranje NIJE uspesno zavrseno!

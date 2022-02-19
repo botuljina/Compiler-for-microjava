@@ -1,0 +1,43 @@
+INFO  23:46:11,076 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  23:46:11,098 - #2 program
+INFO  23:46:11,098 - #33 test301
+INFO  23:46:11,099 - #5 const
+INFO  23:46:11,100 - #33 int
+INFO  23:46:11,100 - #33 nula
+INFO  23:46:11,100 - #7 =
+INFO  23:46:11,101 - #34 0
+INFO  23:46:11,101 - #6 ;
+INFO  23:46:11,102 - #5 const
+INFO  23:46:11,103 - #33 int
+INFO  23:46:11,103 - #33 jedan
+INFO  23:46:11,103 - #7 =
+INFO  23:46:11,103 - #34 1
+INFO  23:46:11,104 - #6 ;
+INFO  23:46:11,104 - #5 const
+INFO  23:46:11,104 - #33 int
+INFO  23:46:11,104 - #33 pet
+INFO  23:46:11,104 - #7 =
+INFO  23:46:11,104 - #34 5
+INFO  23:46:11,104 - #6 ;
+INFO  23:46:11,104 - #33 int
+INFO  23:46:11,104 - #33 niz
+INFO  23:46:11,105 - #12 [
+INFO  23:46:11,105 - #13 ]
+INFO  23:46:11,105 - #6 ;
+INFO  23:46:11,106 - #33 char
+INFO  23:46:11,106 - #33 nizch
+INFO  23:46:11,106 - #12 [
+INFO  23:46:11,106 - #13 ]
+INFO  23:46:11,106 - #6 ;
+INFO  23:46:11,106 - #3 {
+INFO  23:46:11,106 - #9 void
+INFO  23:46:11,107 - #33 main
+INFO  23:46:11,107 - #10 (
+INFO  23:46:11,107 - #11 )
+INFO  23:46:11,107 - #33 int
+INFO  23:46:11,107 - #33 bodovi
+INFO  23:46:11,107 - #6 ;
+INFO  23:46:11,107 - #22 /
+ERROR 23:46:11,107 - 
+Sintaksna greska na liniji 15
+ERROR 23:46:11,108 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15

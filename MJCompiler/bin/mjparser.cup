@@ -1,0 +1,217 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	boolean errorDetected;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+init with {:
+	errorDetected = false;
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+terminal PROG, LBRACE, RBRACE, CONST, SEMI, EQUAL, COMMA, VOID, LPAREN, RPAREN, LSQUARE, RSQUARE, COLON, RETURN, READ, PRINT, GOTO, MINUS,PLUS, MUL, DIV, MOD, NEW,INC,DEC,CHECKEQUAL,NOTEQUAL,GREATER,GREATEROREQUAL,LESSER,LESSEROREQUAL;
+terminal String IDENT;
+terminal Integer NUMBER, BOOL;
+terminal Character CHAR;
+
+nonterminal Program, ConVarDeclList, ConDeclList, ConDecl, Constant, VarDeclList, ConDeclMore, VarDecl, VarDeclMore, MethVarDeclList, GoToLabel,
+StatementList, Statement, Label, SingleStatement, Statements, Addop, Mulop, StatementsList, DesignatorStatement, Assignop, Relop;
+
+nonterminal ProgramName, Unary;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj  Designator, DesignatorArrayName,MethDecl, MethDeclName;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Expr, ExprList, Term, FactorLow, TermList, Factor;
+
+Program ::= (Program) PROG ProgramName ConVarDeclList LBRACE MethDecl RBRACE;
+
+ProgramName ::= (ProgramName) IDENT:progName;
+
+ConVarDeclList ::= 	(ConVarDeclList_con) ConVarDeclList ConDeclList
+					|
+					(ConVarDeclList_var) ConVarDeclList VarDeclList
+					|
+					(ConVarDeclList_e) /* epsilon */
+					;
+		
+ConDeclList ::= (ConDeclList) CONST Type ConDecl ConDeclMore SEMI ;
+
+ConDeclMore ::= (ConDeclMore_comma) COMMA ConDecl ConDeclMore
+				|
+				(ConDeclMore_e) /* epsilon */
+				;
+
+ConDecl ::= (ConDecl) IDENT EQUAL Constant ;
+
+Constant ::= (Constant_n) NUMBER | (Constant_b) BOOL | (Constant_c) CHAR ;
+
+Type ::= (Type) IDENT;
+
+VarDeclList ::= (VarDeclList) Type VarDecl VarDeclMore SEMI;
+
+VarDeclMore ::= (VarDeclMore_comma) COMMA VarDecl VarDeclMore
+				|
+				(VarDeclMore_e) /* epsilon */
+				;
+				
+VarDecl ::= (VarDecl_braces) IDENT:varName LSQUARE RSQUARE			
+			|
+			(VarDecl_identonly) IDENT:varName;
+			
+MethDecl ::= (MethDecl) VOID MethDeclName LPAREN RPAREN MethVarDeclList LBRACE StatementList RBRACE ;
+
+MethDeclName ::= (MethDeclName) IDENT;
+
+
+MethVarDeclList ::= (MethVarDeclList_vardecl) VarDeclList MethVarDeclList
+					|
+					(MethVarDeclList_e)/* epsilon */
+					; 	
+					
+StatementList ::= 	(StatementList_statement) Statement StatementList
+					|
+					(StatementList_e) /* epsilon */
+					;	
+					
+Statement ::= (Statement_label) Label COLON SingleStatement
+			  |
+			  (Statement_nolabel) SingleStatement
+			  |
+			  (Statement_statements) Statements
+			  ;			
+
+Label ::= (Label) IDENT;		
+
+SingleStatement ::= (SingleStatement_desigstmt) DesignatorStatement SEMI
+					|
+					(SingleStatement_return) RETURN SEMI
+					|
+					(SingleStatement_read) READ LPAREN Designator RPAREN SEMI
+					|
+					(SingleStatement_printNumConst) PRINT LPAREN Expr COMMA NUMBER RPAREN SEMI
+					|
+					(SingleStatement_print) PRINT LPAREN Expr RPAREN SEMI
+					|
+					(SingleStatement_goto) GOTO GoToLabel SEMI
+					;
+					
+Statements ::= 	(Statements) LBRACE StatementsList RBRACE;	
+
+StatementsList ::= (StatementsList_statement) Statement StatementsList
+					|
+					(StatementsList_e) /* epsilon */
+					;	
+	
+
+Designator ::= 	(Designator_elem) DesignatorArrayName LSQUARE Expr RSQUARE
+				|
+				(Designator_var) IDENT
+				;
+				
+DesignatorArrayName ::= (DesignatorArrayName) IDENT;
+
+Expr ::= 	(Expr) ExprList
+			;
+
+ExprList ::= 	(ExprList_l) ExprList Addop Term 
+				|
+				(ExprList_t)  Term
+				;	
+				
+Addop ::= 	(Addop_plus) PLUS
+			|
+			(Addop_minus) MINUS
+			;
+
+Term ::= (Term) TermList;
+
+TermList ::= 	(TermList_m) TermList Mulop Factor 
+				|
+				(TermList_f) Factor
+				;
+
+Mulop ::= 	(Mulop_mul) MUL
+			| 
+			(Mulop_div) DIV
+			|
+			(Mulop_mod) MOD
+			;
+			
+Factor ::= (Factor) Unary FactorLow;
+
+Unary ::= (Unary_m) MINUS | (Unary_e) ;
+			
+FactorLow ::=(Factor_des) Designator
+			|
+			(Factor_num) NUMBER
+			|
+			(Factor_char) CHAR
+			|
+			(Factor_bool) BOOL
+			|
+			(Factor_newexpr) NEW Type LSQUARE Expr RSQUARE 
+			|
+			(Factor_paren) LPAREN Expr RPAREN
+			;			
+
+
+DesignatorStatement ::= (DesignatorStatement_asssign) Designator Assignop Expr
+							|
+							(DesignatorStatement_inc) Designator INC
+							|
+							(DesignatorStatement_dec) Designator DEC
+							;
+
+Assignop ::= (Assignop) EQUAL;			
+
+Relop ::= 	(Relop_checkequal) CHECKEQUAL
+			|
+			(Relop_notequal) NOTEQUAL
+			|
+			(Relop_greater) GREATER
+			|
+			(Relop_greaterorequal) GREATEROREQUAL
+			|
+			(Relop_lesser) LESSER
+			|
+			(Relop_lesserorequal) LESSEROREQUAL
+			;		
+			
+GoToLabel ::= (GoToLabel) IDENT;

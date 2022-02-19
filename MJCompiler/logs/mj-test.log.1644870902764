@@ -1,0 +1,89 @@
+INFO  21:34:25,263 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  21:34:25,295 - #2 program
+INFO  21:34:25,295 - #33 MJProgram
+INFO  21:34:25,295 - #5 const
+INFO  21:34:25,296 - #33 int
+INFO  21:34:25,297 - #33 a
+INFO  21:34:25,297 - #7 =
+INFO  21:34:25,297 - #34 5
+INFO  21:34:25,297 - #6 ;
+INFO  21:34:25,298 - #5 const
+INFO  21:34:25,299 - #33 char
+INFO  21:34:25,299 - #33 d
+INFO  21:34:25,299 - #7 =
+INFO  21:34:25,299 - #36 b
+INFO  21:34:25,299 - #6 ;
+INFO  21:34:25,299 - #33 int
+INFO  21:34:25,299 - #33 c
+INFO  21:34:25,299 - #6 ;
+INFO  21:34:25,300 - #3 {
+INFO  21:34:25,301 - #9 void
+INFO  21:34:25,301 - #33 main
+INFO  21:34:25,301 - #10 (
+INFO  21:34:25,301 - #11 )
+INFO  21:34:25,302 - #3 {
+INFO  21:34:25,302 - #4 }
+INFO  21:34:25,303 - #4 }
+INFO  21:34:25,307 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_con(
+      ConVarDeclList_con(
+        ConVarDeclList_e(
+        ) [ConVarDeclList_e]
+        ConDeclList(
+          Type(
+           int
+          ) [Type]
+          ConDecl(
+           a
+            Constant_n(
+             5
+            ) [Constant_n]
+          ) [ConDecl]
+          ConDeclMore_e(
+          ) [ConDeclMore_e]
+        ) [ConDeclList]
+      ) [ConVarDeclList_con]
+      ConDeclList(
+        Type(
+         char
+        ) [Type]
+        ConDecl(
+         d
+          Constant_c(
+           b
+          ) [Constant_c]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConDeclList]
+    ) [ConVarDeclList_con]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl_identonly(
+       c
+      ) [VarDecl_identonly]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    MethDeclName(
+     main
+    ) [MethDeclName]
+    MethVarDeclList_e(
+    ) [MethVarDeclList_e]
+    StatementList_e(
+    ) [StatementList_e]
+  ) [MethDecl]
+) [Program]
+INFO  21:34:25,307 - ===================================
+INFO  21:34:25,308 -  Print count calls = 0
+INFO  21:34:25,308 -  Deklarisanih promenljivih ima = 0
+INFO  21:34:25,308 - ===================================
+INFO  21:34:25,309 - Parsiranje uspesno zavrseno!

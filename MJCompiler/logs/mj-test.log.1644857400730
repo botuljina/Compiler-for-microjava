@@ -1,0 +1,74 @@
+INFO  17:49:38,510 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:49:38,555 - #2 program
+INFO  17:49:38,555 - #33 MJProgram
+INFO  17:49:38,555 - #5 const
+INFO  17:49:38,556 - #33 int
+INFO  17:49:38,556 - #33 a
+INFO  17:49:38,557 - #7 =
+INFO  17:49:38,557 - #34 5
+INFO  17:49:38,557 - #6 ;
+INFO  17:49:38,558 - #5 const
+INFO  17:49:38,559 - #33 char
+INFO  17:49:38,560 - #33 d
+INFO  17:49:38,561 - #7 =
+INFO  17:49:38,562 - #36 b
+INFO  17:49:38,567 - #6 ;
+INFO  17:49:38,568 - #3 {
+INFO  17:49:38,569 - #9 void
+INFO  17:49:38,570 - #33 main
+INFO  17:49:38,570 - #10 (
+INFO  17:49:38,576 - #11 )
+INFO  17:49:38,576 - #3 {
+INFO  17:49:38,577 - #4 }
+INFO  17:49:38,578 - #4 }
+INFO  17:49:38,588 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ConVarDeclList_con(
+    ConVarDeclList_con(
+      ConVarDeclList_e(
+      ) [ConVarDeclList_e]
+      ConDeclList(
+        Type(
+         int
+        ) [Type]
+        ConDecl(
+         a
+          Constant_n(
+           5
+          ) [Constant_n]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConDeclList]
+    ) [ConVarDeclList_con]
+    ConDeclList(
+      Type(
+       char
+      ) [Type]
+      ConDecl(
+       d
+        Constant_c(
+         b
+        ) [Constant_c]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDeclList]
+  ) [ConVarDeclList_con]
+  MethDecl(
+    MethDeclName(
+     main
+    ) [MethDeclName]
+    MethVarDeclList_e(
+    ) [MethVarDeclList_e]
+    StatementList_e(
+    ) [StatementList_e]
+  ) [MethDecl]
+) [Program]
+INFO  17:49:38,588 - ===================================
+INFO  17:49:38,590 -  Print count calls = 0
+INFO  17:49:38,590 -  Deklarisanih promenljivih ima = 0
+INFO  17:49:38,590 - ===================================
+INFO  17:49:38,591 - Parsiranje uspesno zavrseno!

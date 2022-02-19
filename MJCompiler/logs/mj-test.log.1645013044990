@@ -1,0 +1,325 @@
+INFO  13:03:24,983 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:03:25,005 - #2 program
+INFO  13:03:25,005 - #33 test301
+INFO  13:03:25,005 - #5 const
+INFO  13:03:25,006 - #33 int
+INFO  13:03:25,006 - #33 nula
+INFO  13:03:25,007 - #7 =
+INFO  13:03:25,007 - #34 0
+INFO  13:03:25,007 - #6 ;
+INFO  13:03:25,008 - #5 const
+INFO  13:03:25,008 - #33 int
+INFO  13:03:25,008 - #33 jedan
+INFO  13:03:25,008 - #7 =
+INFO  13:03:25,008 - #34 1
+INFO  13:03:25,008 - #6 ;
+INFO  13:03:25,009 - #5 const
+INFO  13:03:25,009 - #33 int
+INFO  13:03:25,009 - #33 pet
+INFO  13:03:25,009 - #7 =
+INFO  13:03:25,009 - #34 5
+INFO  13:03:25,009 - #6 ;
+INFO  13:03:25,009 - #33 int
+INFO  13:03:25,009 - #33 niz
+INFO  13:03:25,010 - #12 [
+INFO  13:03:25,010 - #13 ]
+INFO  13:03:25,010 - #6 ;
+INFO  13:03:25,011 - #33 char
+INFO  13:03:25,011 - #33 nizch
+INFO  13:03:25,011 - #12 [
+INFO  13:03:25,011 - #13 ]
+INFO  13:03:25,011 - #6 ;
+INFO  13:03:25,011 - #3 {
+INFO  13:03:25,011 - #9 void
+INFO  13:03:25,011 - #33 main
+INFO  13:03:25,012 - #10 (
+INFO  13:03:25,012 - #11 )
+INFO  13:03:25,012 - #33 int
+INFO  13:03:25,012 - #33 bodovi
+INFO  13:03:25,012 - #6 ;
+INFO  13:03:25,012 - #33 int
+INFO  13:03:25,012 - #33 b1
+INFO  13:03:25,012 - #6 ;
+INFO  13:03:25,012 - #3 {
+INFO  13:03:25,013 - #18 goto
+INFO  13:03:25,013 - #33 labela2
+INFO  13:03:25,013 - #6 ;
+INFO  13:03:25,014 - #33 labela1
+INFO  13:03:25,014 - #14 :
+INFO  13:03:25,014 - #33 bodovi
+INFO  13:03:25,014 - #7 =
+INFO  13:03:25,014 - #33 bodovi
+INFO  13:03:25,015 - #20 +
+INFO  13:03:25,016 - #34 3
+INFO  13:03:25,017 - #6 ;
+INFO  13:03:25,017 - #17 print
+INFO  13:03:25,017 - #10 (
+INFO  13:03:25,017 - #33 bodovi
+INFO  13:03:25,017 - #11 )
+INFO  13:03:25,018 - #6 ;
+INFO  13:03:25,018 - #18 goto
+INFO  13:03:25,018 - #33 labelaminus
+INFO  13:03:25,018 - #6 ;
+INFO  13:03:25,018 - #17 print
+INFO  13:03:25,018 - #10 (
+INFO  13:03:25,018 - #36 +
+INFO  13:03:25,018 - #11 )
+INFO  13:03:25,018 - #6 ;
+INFO  13:03:25,018 - #33 labelaminus
+INFO  13:03:25,018 - #14 :
+INFO  13:03:25,018 - #17 print
+INFO  13:03:25,018 - #10 (
+INFO  13:03:25,019 - #36 -
+INFO  13:03:25,019 - #11 )
+INFO  13:03:25,019 - #6 ;
+INFO  13:03:25,019 - #4 }
+INFO  13:03:25,019 - #4 }
+INFO  13:03:25,023 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_con(
+        ConVarDeclList_con(
+          ConVarDeclList_con(
+            ConVarDeclList_e(
+            ) [ConVarDeclList_e]
+            ConDeclList(
+              Type(
+               int
+              ) [Type]
+              ConDecl(
+               nula
+                Constant_n(
+                 0
+                ) [Constant_n]
+              ) [ConDecl]
+              ConDeclMore_e(
+              ) [ConDeclMore_e]
+            ) [ConDeclList]
+          ) [ConVarDeclList_con]
+          ConDeclList(
+            Type(
+             int
+            ) [Type]
+            ConDecl(
+             jedan
+              Constant_n(
+               1
+              ) [Constant_n]
+            ) [ConDecl]
+            ConDeclMore_e(
+            ) [ConDeclMore_e]
+          ) [ConDeclList]
+        ) [ConVarDeclList_con]
+        ConDeclList(
+          Type(
+           int
+          ) [Type]
+          ConDecl(
+           pet
+            Constant_n(
+             5
+            ) [Constant_n]
+          ) [ConDecl]
+          ConDeclMore_e(
+          ) [ConDeclMore_e]
+        ) [ConDeclList]
+      ) [ConVarDeclList_con]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_braces(
+         niz
+        ) [VarDecl_braces]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      Type(
+       char
+      ) [Type]
+      VarDecl_braces(
+       nizch
+      ) [VarDecl_braces]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    MethDeclName(
+     main
+    ) [MethDeclName]
+    MethVarDeclList_vardecl(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_identonly(
+         bodovi
+        ) [VarDecl_identonly]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+      MethVarDeclList_vardecl(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl_identonly(
+           b1
+          ) [VarDecl_identonly]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+        MethVarDeclList_e(
+        ) [MethVarDeclList_e]
+      ) [MethVarDeclList_vardecl]
+    ) [MethVarDeclList_vardecl]
+    StatementList_statement(
+      Statement_nolabel(
+        SingleStatement_goto(
+          Label(
+           labela2
+          ) [Label]
+        ) [SingleStatement_goto]
+      ) [Statement_nolabel]
+      StatementList_statement(
+        Statement_label(
+          Label(
+           labela1
+          ) [Label]
+          SingleStatement_desigstmt(
+            DesignatorStatement_asssign(
+              Designator_var(
+               bodovi
+              ) [Designator_var]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                ExprList_l(
+                  ExprList_t(
+                    Term(
+                      TermList_f(
+                        Factor(
+                          Unary_e(
+                          ) [Unary_e]
+                          Factor_des(
+                            Designator_var(
+                             bodovi
+                            ) [Designator_var]
+                          ) [Factor_des]
+                        ) [Factor]
+                      ) [TermList_f]
+                    ) [Term]
+                  ) [ExprList_t]
+                  Addop_plus(
+                  ) [Addop_plus]
+                  Term(
+                    TermList_f(
+                      Factor(
+                        Unary_e(
+                        ) [Unary_e]
+                        Factor_num(
+                         3
+                        ) [Factor_num]
+                      ) [Factor]
+                    ) [TermList_f]
+                  ) [Term]
+                ) [ExprList_l]
+              ) [Expr]
+            ) [DesignatorStatement_asssign]
+          ) [SingleStatement_desigstmt]
+        ) [Statement_label]
+        StatementList_statement(
+          Statement_nolabel(
+            SingleStatement_print(
+              Expr(
+                ExprList_t(
+                  Term(
+                    TermList_f(
+                      Factor(
+                        Unary_e(
+                        ) [Unary_e]
+                        Factor_des(
+                          Designator_var(
+                           bodovi
+                          ) [Designator_var]
+                        ) [Factor_des]
+                      ) [Factor]
+                    ) [TermList_f]
+                  ) [Term]
+                ) [ExprList_t]
+              ) [Expr]
+            ) [SingleStatement_print]
+          ) [Statement_nolabel]
+          StatementList_statement(
+            Statement_nolabel(
+              SingleStatement_goto(
+                Label(
+                 labelaminus
+                ) [Label]
+              ) [SingleStatement_goto]
+            ) [Statement_nolabel]
+            StatementList_statement(
+              Statement_nolabel(
+                SingleStatement_print(
+                  Expr(
+                    ExprList_t(
+                      Term(
+                        TermList_f(
+                          Factor(
+                            Unary_e(
+                            ) [Unary_e]
+                            Factor_char(
+                             +
+                            ) [Factor_char]
+                          ) [Factor]
+                        ) [TermList_f]
+                      ) [Term]
+                    ) [ExprList_t]
+                  ) [Expr]
+                ) [SingleStatement_print]
+              ) [Statement_nolabel]
+              StatementList_statement(
+                Statement_label(
+                  Label(
+                   labelaminus
+                  ) [Label]
+                  SingleStatement_print(
+                    Expr(
+                      ExprList_t(
+                        Term(
+                          TermList_f(
+                            Factor(
+                              Unary_e(
+                              ) [Unary_e]
+                              Factor_char(
+                               -
+                              ) [Factor_char]
+                            ) [Factor]
+                          ) [TermList_f]
+                        ) [Term]
+                      ) [ExprList_t]
+                    ) [Expr]
+                  ) [SingleStatement_print]
+                ) [Statement_label]
+                StatementList_e(
+                ) [StatementList_e]
+              ) [StatementList_statement]
+            ) [StatementList_statement]
+          ) [StatementList_statement]
+        ) [StatementList_statement]
+      ) [StatementList_statement]
+    ) [StatementList_statement]
+  ) [MethDecl]
+) [Program]
+INFO  13:03:25,023 - ===================================
+INFO  13:03:25,026 - Obrada funkcije main na liniji 13
+INFO  13:03:25,026 -  Print count calls = 0
+INFO  13:03:25,027 -  Deklarisanih promenljivih ima = 0
+INFO  13:03:25,027 - ===================================
+INFO  13:03:25,027 - Parsiranje uspesno zavrseno!

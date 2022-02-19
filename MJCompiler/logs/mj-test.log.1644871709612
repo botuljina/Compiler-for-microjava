@@ -1,0 +1,135 @@
+INFO  21:46:22,758 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  21:46:22,777 - #2 program
+INFO  21:46:22,777 - #33 MJProgram
+INFO  21:46:22,777 - #5 const
+INFO  21:46:22,778 - #33 int
+INFO  21:46:22,778 - #33 a
+INFO  21:46:22,778 - #7 =
+INFO  21:46:22,778 - #34 5
+INFO  21:46:22,778 - #6 ;
+INFO  21:46:22,779 - #5 const
+INFO  21:46:22,780 - #33 char
+INFO  21:46:22,780 - #33 d
+INFO  21:46:22,780 - #7 =
+INFO  21:46:22,780 - #36 b
+INFO  21:46:22,780 - #6 ;
+INFO  21:46:22,780 - #33 char
+INFO  21:46:22,780 - #33 c
+INFO  21:46:22,781 - #6 ;
+INFO  21:46:22,781 - #33 char
+INFO  21:46:22,782 - #33 g
+INFO  21:46:22,782 - #6 ;
+INFO  21:46:22,782 - #33 char
+INFO  21:46:22,782 - #33 s
+INFO  21:46:22,783 - #6 ;
+INFO  21:46:22,783 - #33 picka
+INFO  21:46:22,783 - #33 t
+INFO  21:46:22,783 - #6 ;
+INFO  21:46:22,783 - #3 {
+INFO  21:46:22,783 - #9 void
+INFO  21:46:22,783 - #33 main
+INFO  21:46:22,783 - #10 (
+INFO  21:46:22,784 - #11 )
+INFO  21:46:22,784 - #3 {
+INFO  21:46:22,785 - #4 }
+INFO  21:46:22,785 - #4 }
+INFO  21:46:22,789 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_var(
+        ConVarDeclList_var(
+          ConVarDeclList_con(
+            ConVarDeclList_con(
+              ConVarDeclList_e(
+              ) [ConVarDeclList_e]
+              ConDeclList(
+                Type(
+                 int
+                ) [Type]
+                ConDecl(
+                 a
+                  Constant_n(
+                   5
+                  ) [Constant_n]
+                ) [ConDecl]
+                ConDeclMore_e(
+                ) [ConDeclMore_e]
+              ) [ConDeclList]
+            ) [ConVarDeclList_con]
+            ConDeclList(
+              Type(
+               char
+              ) [Type]
+              ConDecl(
+               d
+                Constant_c(
+                 b
+                ) [Constant_c]
+              ) [ConDecl]
+              ConDeclMore_e(
+              ) [ConDeclMore_e]
+            ) [ConDeclList]
+          ) [ConVarDeclList_con]
+          VarDeclList(
+            Type(
+             char
+            ) [Type]
+            VarDecl_identonly(
+             c
+            ) [VarDecl_identonly]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [ConVarDeclList_var]
+        VarDeclList(
+          Type(
+           char
+          ) [Type]
+          VarDecl_identonly(
+           g
+          ) [VarDecl_identonly]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [ConVarDeclList_var]
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarDecl_identonly(
+         s
+        ) [VarDecl_identonly]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      Type(
+       picka
+      ) [Type]
+      VarDecl_identonly(
+       t
+      ) [VarDecl_identonly]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    MethDeclName(
+     main
+    ) [MethDeclName]
+    MethVarDeclList_e(
+    ) [MethVarDeclList_e]
+    StatementList_e(
+    ) [StatementList_e]
+  ) [MethDecl]
+) [Program]
+INFO  21:46:22,790 - ===================================
+ERROR 21:46:22,791 - nepostojeci tippicka na liniji 9
+INFO  21:46:22,791 -  Print count calls = 0
+INFO  21:46:22,791 -  Deklarisanih promenljivih ima = 0
+INFO  21:46:22,791 - ===================================
+ERROR 21:46:22,792 - Parsiranje NIJE uspesno zavrseno!

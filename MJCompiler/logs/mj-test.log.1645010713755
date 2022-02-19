@@ -1,0 +1,43 @@
+INFO  12:25:04,195 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  12:25:04,215 - #2 program
+INFO  12:25:04,216 - #33 test301
+INFO  12:25:04,216 - #5 const
+INFO  12:25:04,216 - #33 int
+INFO  12:25:04,216 - #33 nula
+INFO  12:25:04,217 - #7 =
+INFO  12:25:04,217 - #34 0
+INFO  12:25:04,217 - #6 ;
+INFO  12:25:04,218 - #5 const
+INFO  12:25:04,218 - #33 int
+INFO  12:25:04,218 - #33 jedan
+INFO  12:25:04,219 - #7 =
+INFO  12:25:04,219 - #34 1
+INFO  12:25:04,219 - #6 ;
+INFO  12:25:04,219 - #5 const
+INFO  12:25:04,219 - #33 int
+INFO  12:25:04,219 - #33 pet
+INFO  12:25:04,219 - #7 =
+INFO  12:25:04,219 - #34 5
+INFO  12:25:04,219 - #6 ;
+INFO  12:25:04,219 - #33 int
+INFO  12:25:04,219 - #33 niz
+INFO  12:25:04,219 - #12 [
+INFO  12:25:04,219 - #13 ]
+INFO  12:25:04,220 - #6 ;
+INFO  12:25:04,220 - #33 char
+INFO  12:25:04,221 - #33 nizch
+INFO  12:25:04,221 - #12 [
+INFO  12:25:04,221 - #13 ]
+INFO  12:25:04,221 - #6 ;
+INFO  12:25:04,221 - #3 {
+INFO  12:25:04,221 - #9 void
+INFO  12:25:04,221 - #33 main
+INFO  12:25:04,221 - #10 (
+INFO  12:25:04,222 - #11 )
+INFO  12:25:04,222 - #33 int
+INFO  12:25:04,222 - #33 bodovi
+INFO  12:25:04,222 - #6 ;
+INFO  12:25:04,222 - #22 /
+ERROR 12:25:04,222 - 
+Sintaksna greska na liniji 15
+ERROR 12:25:04,222 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15

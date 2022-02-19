@@ -1,0 +1,54 @@
+INFO  17:48:40,423 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:48:40,456 - #2 program
+INFO  17:48:40,456 - #33 MJProgram
+INFO  17:48:40,456 - #5 const
+INFO  17:48:40,458 - #33 bool
+INFO  17:48:40,458 - #33 a
+INFO  17:48:40,459 - #7 =
+INFO  17:48:40,459 - #34 5
+INFO  17:48:40,459 - #6 ;
+INFO  17:48:40,460 - #3 {
+INFO  17:48:40,461 - #9 void
+INFO  17:48:40,461 - #33 main
+INFO  17:48:40,461 - #10 (
+INFO  17:48:40,462 - #11 )
+INFO  17:48:40,462 - #3 {
+INFO  17:48:40,463 - #4 }
+INFO  17:48:40,464 - #4 }
+INFO  17:48:40,472 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ConVarDeclList_con(
+    ConVarDeclList_e(
+    ) [ConVarDeclList_e]
+    ConDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConDecl(
+       a
+        Constant_n(
+         5
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDeclList]
+  ) [ConVarDeclList_con]
+  MethDecl(
+    MethDeclName(
+     main
+    ) [MethDeclName]
+    MethVarDeclList_e(
+    ) [MethVarDeclList_e]
+    StatementList_e(
+    ) [StatementList_e]
+  ) [MethDecl]
+) [Program]
+INFO  17:48:40,473 - ===================================
+ERROR 17:48:40,475 - Nisu kompatiblini tipovi pri kreiranju konstante na liniji 2
+INFO  17:48:40,475 -  Print count calls = 0
+INFO  17:48:40,475 -  Deklarisanih promenljivih ima = 0
+INFO  17:48:40,475 - ===================================
+ERROR 17:48:40,476 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,21 @@
+INFO  19:42:23,265 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:42:23,290 - #2 program
+INFO  19:42:23,291 - #33 Keske
+INFO  19:42:23,291 - #5 const
+INFO  19:42:23,291 - #33 int
+INFO  19:42:23,292 - #33 pi
+INFO  19:42:23,292 - #7 =
+INFO  19:42:23,292 - #34 3
+INFO  19:42:23,292 - #6 ;
+INFO  19:42:23,293 - #33 int
+INFO  19:42:23,293 - #33 x
+INFO  19:42:23,293 - #8 ,
+INFO  19:42:23,294 - #33 y
+INFO  19:42:23,294 - #12 [
+INFO  19:42:23,294 - #13 ]
+INFO  19:42:23,294 - #6 ;
+INFO  19:42:23,294 - #3 {
+INFO  19:42:23,295 - #33 int
+ERROR 19:42:23,295 - 
+Sintaksna greska na liniji 7
+ERROR 19:42:23,295 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7

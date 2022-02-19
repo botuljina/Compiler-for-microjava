@@ -1,0 +1,191 @@
+INFO  23:49:34,661 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  23:49:34,681 - #2 program
+INFO  23:49:34,681 - #33 test301
+INFO  23:49:34,681 - #5 const
+INFO  23:49:34,682 - #33 int
+INFO  23:49:34,682 - #33 nula
+INFO  23:49:34,682 - #7 =
+INFO  23:49:34,682 - #34 0
+INFO  23:49:34,682 - #6 ;
+INFO  23:49:34,683 - #5 const
+INFO  23:49:34,684 - #33 int
+INFO  23:49:34,684 - #33 jedan
+INFO  23:49:34,684 - #7 =
+INFO  23:49:34,684 - #34 1
+INFO  23:49:34,684 - #6 ;
+INFO  23:49:34,684 - #5 const
+INFO  23:49:34,684 - #33 int
+INFO  23:49:34,684 - #33 pet
+INFO  23:49:34,685 - #7 =
+INFO  23:49:34,685 - #34 5
+INFO  23:49:34,685 - #6 ;
+INFO  23:49:34,685 - #33 int
+INFO  23:49:34,685 - #33 niz
+INFO  23:49:34,685 - #12 [
+INFO  23:49:34,685 - #13 ]
+INFO  23:49:34,685 - #6 ;
+INFO  23:49:34,686 - #33 char
+INFO  23:49:34,687 - #33 nizch
+INFO  23:49:34,687 - #12 [
+INFO  23:49:34,687 - #13 ]
+INFO  23:49:34,687 - #6 ;
+INFO  23:49:34,687 - #3 {
+INFO  23:49:34,687 - #9 void
+INFO  23:49:34,687 - #33 main
+INFO  23:49:34,687 - #10 (
+INFO  23:49:34,688 - #11 )
+INFO  23:49:34,688 - #33 int
+INFO  23:49:34,688 - #33 bodovi
+INFO  23:49:34,688 - #6 ;
+INFO  23:49:34,688 - #3 {
+INFO  23:49:34,689 - #33 bodovi
+INFO  23:49:34,689 - #7 =
+INFO  23:49:34,689 - #34 0
+INFO  23:49:34,690 - #6 ;
+INFO  23:49:34,692 - #16 read
+INFO  23:49:34,692 - #10 (
+INFO  23:49:34,692 - #33 bodovi
+INFO  23:49:34,692 - #11 )
+INFO  23:49:34,692 - #6 ;
+INFO  23:49:34,692 - #4 }
+INFO  23:49:34,692 - #4 }
+INFO  23:49:34,697 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConVarDeclList_var(
+    ConVarDeclList_var(
+      ConVarDeclList_con(
+        ConVarDeclList_con(
+          ConVarDeclList_con(
+            ConVarDeclList_e(
+            ) [ConVarDeclList_e]
+            ConDeclList(
+              Type(
+               int
+              ) [Type]
+              ConDecl(
+               nula
+                Constant_n(
+                 0
+                ) [Constant_n]
+              ) [ConDecl]
+              ConDeclMore_e(
+              ) [ConDeclMore_e]
+            ) [ConDeclList]
+          ) [ConVarDeclList_con]
+          ConDeclList(
+            Type(
+             int
+            ) [Type]
+            ConDecl(
+             jedan
+              Constant_n(
+               1
+              ) [Constant_n]
+            ) [ConDecl]
+            ConDeclMore_e(
+            ) [ConDeclMore_e]
+          ) [ConDeclList]
+        ) [ConVarDeclList_con]
+        ConDeclList(
+          Type(
+           int
+          ) [Type]
+          ConDecl(
+           pet
+            Constant_n(
+             5
+            ) [Constant_n]
+          ) [ConDecl]
+          ConDeclMore_e(
+          ) [ConDeclMore_e]
+        ) [ConDeclList]
+      ) [ConVarDeclList_con]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_braces(
+         niz
+        ) [VarDecl_braces]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [ConVarDeclList_var]
+    VarDeclList(
+      Type(
+       char
+      ) [Type]
+      VarDecl_braces(
+       nizch
+      ) [VarDecl_braces]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+  ) [ConVarDeclList_var]
+  MethDecl(
+    MethDeclName(
+     main
+    ) [MethDeclName]
+    MethVarDeclList_vardecl(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_identonly(
+         bodovi
+        ) [VarDecl_identonly]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+      MethVarDeclList_e(
+      ) [MethVarDeclList_e]
+    ) [MethVarDeclList_vardecl]
+    StatementList_statement(
+      Statement_nolabel(
+        SingleStatement_desigstmt(
+          DesignatorStatement_asssign(
+            Designator_var(
+             bodovi
+            ) [Designator_var]
+            Assignop(
+            ) [Assignop]
+            Expr(
+              ExprList_t(
+                Term(
+                  TermList_f(
+                    Factor(
+                      Unary_e(
+                      ) [Unary_e]
+                      Factor_num(
+                       0
+                      ) [Factor_num]
+                    ) [Factor]
+                  ) [TermList_f]
+                ) [Term]
+              ) [ExprList_t]
+            ) [Expr]
+          ) [DesignatorStatement_asssign]
+        ) [SingleStatement_desigstmt]
+      ) [Statement_nolabel]
+      StatementList_statement(
+        Statement_nolabel(
+          SingleStatement_read(
+            Designator_var(
+             bodovi
+            ) [Designator_var]
+          ) [SingleStatement_read]
+        ) [Statement_nolabel]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [StatementList_statement]
+    ) [StatementList_statement]
+  ) [MethDecl]
+) [Program]
+INFO  23:49:34,698 - ===================================
+INFO  23:49:34,699 - Obrada funkcije main na liniji 13
+INFO  23:49:34,699 -  Print count calls = 0
+INFO  23:49:34,699 -  Deklarisanih promenljivih ima = 0
+INFO  23:49:34,699 - ===================================
+INFO  23:49:34,702 - Parsiranje uspesno zavrseno!
