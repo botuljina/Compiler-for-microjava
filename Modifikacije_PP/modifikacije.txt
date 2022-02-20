@@ -1,0 +1,31 @@
+1. niz = new bool[8]; 
+   elementima niza se dodele bool vrednosti i npr. za 
+   true false true false false true false true da ispise 165 
+   1    0     1    0     0     1    0     1
+
+2. niz@1514756673----> ZIZA, "niz" je niz od 4 karaktera 
+   1296124481->MAJA 
+   1514756673->ZIZA 
+   1296124481 - 32b int koji se dodeljuje u elemente niza i ispisuje se od niz[0] do niz[3], na kraju treba da se dobije "ZIZA" ili "MAJA", sa siftovanjem se radi
+
+3. niz@1 = niz[1] + niz[5-1]; gde je 5 arraylength, ova jedinica je NUMBER nije Expr
+
+4. #niz[2] => broj pristupa elementu niza 
+   npr. 
+   niz[2] = 2;
+   niz[1] = niz[2];
+   print(#niz[2]); ----> treba da ispise 2
+
+5. niz['a','b','c'] i kad se pozove niz[5]@4 => niz[(5+4)%arraylength]
+
+6. Cezarov algoritam - svako slovo menja sa odg. slovom pomerenim za dati broj npr.
+
+7. niz @ - da se ispise max niza -> mislim da je ovo za B modif ipak
+
+8. niz[1,2] - swap-uje niz[1] sa niz[2]
+
+9. dodati final ispred deklaracije niza i omoguciti da se elementima tog niza samo jednom moze dodeliti vrednost - januar 2021 RTI
+
+10. x@y -> x^2 + 2*x*y + y^2
+
+11. januar 2021 SI - goto i labela, moze da se skoci unapred i unazad u main-u - Januar 2021 SI/Februar 2020
