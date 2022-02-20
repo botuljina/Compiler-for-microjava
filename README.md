@@ -17,4 +17,7 @@ Implemented MicroJava compiler, school project that follows 4 different phases.
 <li>build.xml -> run as -> antbuild -> mjParser</li>
 <li>Faza 4- izvorni kod kopiran sa sajta se nalazi u zip arhivi</li>
 <li>Izmene se rade na SemanticPass.java</li>
-
+  <hr/>
+<p align="center">
+  <img src="/FinalPic.PNG">
+</p>
